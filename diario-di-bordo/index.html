@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il tuo Diario di bordo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* ====== COLORI E CARATTERI (cambia qui per adattare lo stile) ====== */
+  :root {
+    --bg: #07070c;
+    --card: #0c0e1b;
+    --text: #f4f2fa;
+    --muted: #c3c0d3;
+    --dim: #8a879c;
+    --magenta: #e040fb;
+    --blue: #5b7cfa;
+    --violet: #9d6bff;
+    --line: rgba(255, 255, 255, .12);
+    --serif: 'Playfair Display', Georgia, serif;   /* titoli, nome, numeri */
+    --sans: 'Inter', system-ui, sans-serif;        /* testi */
+    --mono: 'JetBrains Mono', ui-monospace, monospace; /* etichette MAIUSCOLE */
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-variant-numeric: lining-nums;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 32px 16px 80px; }
+
+  /* Logo */
+  .brand { text-align: center; margin-bottom: 28px; }
+  .brand svg { width: 64px; height: auto; color: #b9b9c4; }
+  .brand-name { font-family: var(--sans); font-weight: 600; font-size: 15px; letter-spacing: .02em; color: #cfcfd8; margin-top: 2px; }
+  .brand-sub { font-size: 10px; letter-spacing: .45em; color: #9a9aa6; }
+
+  /* Card principale con sfumatura viola */
+  .hero {
+    position: relative;
+    border-radius: 24px;
+    padding: 28px 20px 24px;
+    background:
+      radial-gradient(120% 80% at 85% 0%, rgba(120, 72, 200, .55), transparent 55%),
+      radial-gradient(90% 60% at 10% 30%, rgba(40, 60, 140, .35), transparent 60%),
+      linear-gradient(180deg, #14142a 0%, #0a0a12 70%);
+    overflow: hidden;
+  }
+
+  /* Pillola "Webinar live" */
+  .badge {
+    display: inline-flex; align-items: flex-start; gap: 10px;
+    padding: 10px 18px 10px 14px;
+    border: 1px solid rgba(255, 255, 255, .22);
+    border-radius: 999px;
+    font-weight: 600; font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .badge .accent { color: var(--magenta); }
+  .dot {
+    flex: none; width: 10px; height: 10px; margin-top: 5px; border-radius: 50%;
+    background: var(--magenta);
+    box-shadow: 0 0 0 5px rgba(224, 64, 251, .25);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 4px rgba(224, 64, 251, .25); }
+    50% { box-shadow: 0 0 0 8px rgba(224, 64, 251, .05); }
+  }
+
+  h1 {
+    font-family: var(--serif); font-weight: 600;
+    font-size: clamp(38px, 10vw, 56px); line-height: 1.1;
+    margin: 26px 0 12px;
+  }
+  .grad {
+    background: linear-gradient(90deg, var(--blue), var(--violet));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .lead { color: var(--muted); font-size: 18px; margin: 0; }
+
+  /* Etichette mono in maiuscolo */
+  .label {
+    font-family: var(--mono); font-size: 13px; font-weight: 500;
+    letter-spacing: .22em; text-transform: uppercase; color: var(--magenta);
+  }
+
+  /* Campo nome: solo una riga sotto */
+  .name-field { margin-top: 30px; }
+  .name-field input {
+    display: block; width: 100%; max-width: 420px;
+    margin-top: 14px; padding: 6px 4px 10px;
+    background: transparent; border: 0; border-bottom: 1px solid rgba(255, 255, 255, .3);
+    color: var(--text); font-family: var(--serif); font-size: 26px;
+    outline: none; transition: border-color .2s;
+  }
+  .name-field input:focus { border-color: var(--magenta); }
+  .name-field input::placeholder { color: #55536a; }
+
+  /* Box conto alla rovescia */
+  .board {
+    margin-top: 28px; padding: 22px 18px;
+    border: 1px solid rgba(224, 64, 251, .35);
+    border-radius: 20px;
+    background: rgba(8, 9, 20, .7);
+    box-shadow: 0 0 40px rgba(224, 64, 251, .08) inset;
+  }
+  .countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 18px 0; }
+  .tile {
+    text-align: center; padding: 14px 4px 10px;
+    border: 1px solid var(--line); border-radius: 14px; background: #10121f;
+  }
+  .tile b { display: block; font-family: var(--serif); font-weight: 500; font-size: clamp(26px, 8vw, 40px); line-height: 1.1; }
+  .tile span { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--dim); }
+  .live-now { display: none; margin: 18px 0; }
+  .live-now a {
+    display: inline-block; padding: 14px 22px; border-radius: 999px;
+    background: linear-gradient(90deg, var(--blue), var(--violet));
+    color: #fff; text-decoration: none; font-weight: 600;
+  }
+  .board p { color: var(--muted); font-size: 17px; margin: 0; }
+
+  /* Cerchio di avanzamento + checklist */
+  .progress { display: flex; align-items: center; gap: 22px; margin-top: 24px; }
+  .ring { position: relative; flex: none; width: 120px; height: 120px; }
+  .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+  .ring circle { fill: none; stroke-width: 9; }
+  .ring .track { stroke: #1d1f30; }
+  .ring .bar { stroke: url(#ringGrad); stroke-linecap: round; transition: stroke-dashoffset .8s cubic-bezier(.2, .8, .2, 1); }
+  .ring .num { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+  .ring .num b { font-family: var(--serif); font-size: 30px; font-weight: 600; line-height: 1; }
+  .ring .num span { font-family: var(--mono); font-size: 10px; letter-spacing: .2em; color: var(--dim); margin-top: 4px; }
+
+  .checklist { list-style: none; margin: 0; padding: 0; flex: 1; }
+  .checklist li { display: flex; align-items: center; gap: 10px; padding: 5px 0; font-size: 15px; color: var(--dim); transition: color .3s; }
+  .checklist .box {
+    flex: none; width: 20px; height: 20px; border-radius: 6px;
+    border: 1.5px solid #3a3850; display: grid; place-content: center;
+    transition: background .3s, border-color .3s, transform .3s;
+  }
+  .checklist .box svg { width: 12px; opacity: 0; transform: scale(.4); transition: opacity .3s, transform .3s; }
+  .checklist li.done { color: var(--text); }
+  .checklist li.done .box { background: var(--magenta); border-color: var(--magenta); transform: scale(1.08); }
+  .checklist li.done .box svg { opacity: 1; transform: scale(1); }
+
+  /* Sezioni sotto */
+  .section {
+    margin-top: 22px; padding: 24px 20px;
+    border: 1px solid var(--line); border-radius: 20px; background: var(--card);
+  }
+  .section h2 { font-family: var(--serif); font-weight: 600; font-size: 26px; line-height: 1.2; margin: 10px 0 8px; }
+  .section p { color: var(--muted); margin: 0 0 14px; }
+  .section-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .status { font-family: var(--mono); font-size: 11px; letter-spacing: .15em; color: var(--dim); text-transform: uppercase; transition: color .3s; }
+  .section.done .status { color: var(--magenta); }
+
+  textarea {
+    width: 100%; min-height: 110px; padding: 14px;
+    background: #080914; color: var(--text);
+    border: 1px solid var(--line); border-radius: 14px;
+    font: 300 16px/1.6 var(--sans); resize: vertical; outline: none;
+    transition: border-color .2s;
+  }
+  textarea:focus { border-color: rgba(224, 64, 251, .6); }
+  textarea::placeholder { color: #55536a; }
+
+  .tips { margin: 0; padding: 0; list-style: none; counter-reset: tip; }
+  .tips li { position: relative; padding: 10px 0 10px 44px; color: var(--muted); border-top: 1px solid var(--line); }
+  .tips li:first-child { border-top: 0; }
+  .tips li::before {
+    counter-increment: tip; content: counter(tip, decimal-leading-zero);
+    position: absolute; left: 0; top: 11px;
+    font-family: var(--mono); font-size: 13px; color: var(--magenta);
+  }
+
+  footer { text-align: center; margin-top: 40px; font-size: 13px; color: var(--dim); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  @media (max-width: 420px) {
+    .progress { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="brand">
+    <svg viewBox="0 0 64 40" fill="currentColor" aria-hidden="true">
+      <path d="M31 38C24 33 12 31 2 33V6c10-2 22 0 29 6z"/>
+      <path d="M33 38c7-5 19-7 29-5V6c-10-2-22 0-29 6z"/>
+    </svg>
+    <div class="brand-name" id="brandName">IL TUO MARCHIO</div>
+    <div class="brand-sub">ACADEMY</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge"><span class="dot"></span><span>Webinar live gratuito · <span class="accent">Titolo dell'evento</span></span></div>
+
+      <h1>Il tuo <span class="grad">Diario di bordo</span></h1>
+      <p class="lead">La checklist si spunta da sola mentre completi i passaggi. Tre esercizi per fotografare come lavori oggi, i consigli per la sera della diretta e lo spazio per i tuoi appunti.</p>
+
+      <div class="name-field">
+        <label class="label" for="name">Il tuo nome</label>
+        <input id="name" type="text" placeholder="Scrivi qui il tuo nome" autocomplete="given-name" maxlength="40">
+      </div>
+
+      <div class="board">
+        <div class="label" id="countLabel">Alla diretta mancano</div>
+        <div class="countdown" id="countdown">
+          <div class="tile"><b id="cd-d">0</b><span>GIORNI</span></div>
+          <div class="tile"><b id="cd-h">00</b><span>ORE</span></div>
+          <div class="tile"><b id="cd-m">00</b><span>MINUTI</span></div>
+          <div class="tile"><b id="cd-s">00</b><span>SECONDI</span></div>
+        </div>
+        <div class="live-now" id="liveNow"><a id="liveLink" href="#" target="_blank" rel="noopener">Entra nella diretta →</a></div>
+
+        <p><span id="greeting">Ciao.</span> Ogni passaggio che completi qui fa salire il cerchio. La sera della diretta questo riquadro diventa la tua plancia: link della diretta, il tuo libro, gli appunti.</p>
+
+        <div class="progress">
+          <div class="ring">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <defs>
+                <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#5b7cfa"/>
+                  <stop offset="1" stop-color="#e040fb"/>
+                </linearGradient>
+              </defs>
+              <circle class="track" cx="60" cy="60" r="52"/>
+              <circle class="bar" id="ringBar" cx="60" cy="60" r="52"/>
+            </svg>
+            <div class="num"><b id="pct">0%</b><span>PRONTO</span></div>
+          </div>
+          <ul class="checklist" id="checklist"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-step="ex1">
+      <div class="section-head"><span class="label">Esercizio 01</span><span class="status">Da fare</span></div>
+      <h2>Come lavori oggi?</h2>
+      <p>Descrivi in poche righe come crei i tuoi libri adesso, dall'idea alla pubblicazione.</p>
+      <textarea data-save="ex1" placeholder="Scrivi qui…"></textarea>
+    </section>
+
+    <section class="section" data-step="ex2">
+      <div class="section-head"><span class="label">Esercizio 02</span><span class="status">Da fare</span></div>
+      <h2>Dove perdi più tempo?</h2>
+      <p>Qual è il passaggio che ti blocca o ti rallenta di più?</p>
+      <textarea data-save="ex2" placeholder="Scrivi qui…"></textarea>
+    </section>
+
+    <section class="section" data-step="ex3">
+      <div class="section-head"><span class="label">Esercizio 03</span><span class="status">Da fare</span></div>
+      <h2>Il tuo obiettivo</h2>
+      <p>Cosa vorresti portarti a casa dalla serata?</p>
+      <textarea data-save="ex3" placeholder="Scrivi qui…"></textarea>
+    </section>
+
+    <section class="section" data-step="tips" id="tips">
+      <div class="section-head"><span class="label">Per la sera della diretta</span><span class="status">Da leggere</span></div>
+      <h2>I consigli</h2>
+      <ol class="tips">
+        <li>Collegati 10 minuti prima, da computer se puoi.</li>
+        <li>Tieni aperto questo diario: qui trovi il link e i tuoi appunti.</li>
+        <li>Prepara le risposte agli esercizi, ti serviranno durante la serata.</li>
+        <li>Resta fino alla fine: le domande si fanno in chiusura.</li>
+      </ol>
+    </section>
+
+    <section class="section" data-step="notes">
+      <div class="section-head"><span class="label">I tuoi appunti</span><span class="status">Vuoto</span></div>
+      <h2>Appunti</h2>
+      <p>Tutto quello che scrivi resta salvato su questo dispositivo.</p>
+      <textarea data-save="notes" placeholder="Domande, idee, cose da ricordare…"></textarea>
+    </section>
+  </main>
+
+  <footer>© Il tuo marchio</footer>
+</div>
+
+<script>
+/* ====== IMPOSTAZIONI (cambia solo questa parte) ====== */
+const CONFIG = {
+  eventDate: '2026-10-29T21:00:00+01:00',   // data e ora della diretta
+  liveLink: 'https://example.com/diretta',  // link che appare quando inizia
+  storageKey: 'diario-di-bordo'             // cambialo per ogni pagina diversa
+};
+
+/* I passaggi della checklist e quando si spuntano da soli */
+const STEPS = [
+  { id: 'name',  text: 'Scrivi il tuo nome',      done: s => (s.name || '').trim().length >= 2 },
+  { id: 'ex1',   text: 'Esercizio 1',             done: s => (s.ex1 || '').trim().length >= 15 },
+  { id: 'ex2',   text: 'Esercizio 2',             done: s => (s.ex2 || '').trim().length >= 15 },
+  { id: 'ex3',   text: 'Esercizio 3',             done: s => (s.ex3 || '').trim().length >= 15 },
+  { id: 'tips',  text: 'Leggi i consigli',        done: s => !!s.tipsSeen },
+  { id: 'notes', text: 'Scrivi un appunto',       done: s => (s.notes || '').trim().length >= 3 }
+];
+
+/* ====== Da qui in giù non serve toccare nulla ====== */
+const state = load();
+
+function load() {
+  try { return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || {}; }
+  catch (e) { return {}; }
+}
+function save() {
+  try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(state)); } catch (e) {}
+}
+
+const checkSvg = '<svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="2"><path d="M1 5l3.5 3.5L11 1.5"/></svg>';
+const list = document.getElementById('checklist');
+list.innerHTML = STEPS.map(s =>
+  `<li data-id="${s.id}"><span class="box">${checkSvg}</span>${s.text}</li>`).join('');
+
+const ring = document.getElementById('ringBar');
+const C = 2 * Math.PI * 52;
+ring.style.strokeDasharray = C;
+ring.style.strokeDashoffset = C;
+
+function render() {
+  const name = (state.name || '').trim();
+  document.getElementById('greeting').textContent = name ? `Ciao ${name}.` : 'Ciao.';
+
+  let count = 0;
+  STEPS.forEach(step => {
+    const ok = step.done(state);
+    if (ok) count++;
+    list.querySelector(`[data-id="${step.id}"]`).classList.toggle('done', ok);
+    const sec = document.querySelector(`.section[data-step="${step.id}"]`);
+    if (sec) {
+      sec.classList.toggle('done', ok);
+      const st = sec.querySelector('.status');
+      st.textContent = ok ? '✓ Fatto' : (step.id === 'tips' ? 'Da leggere' : step.id === 'notes' ? 'Vuoto' : 'Da fare');
+    }
+  });
+  const pct = Math.round(count / STEPS.length * 100);
+  document.getElementById('pct').textContent = pct + '%';
+  ring.style.strokeDashoffset = C * (1 - pct / 100);
+}
+
+/* Nome */
+const nameInput = document.getElementById('name');
+nameInput.value = state.name || '';
+nameInput.addEventListener('input', () => { state.name = nameInput.value; save(); render(); });
+
+/* Esercizi e appunti: salvataggio automatico */
+document.querySelectorAll('textarea[data-save]').forEach(t => {
+  t.value = state[t.dataset.save] || '';
+  t.addEventListener('input', () => { state[t.dataset.save] = t.value; save(); render(); });
+});
+
+/* Consigli: si spuntano quando li hai visti per qualche secondo */
+if ('IntersectionObserver' in window && !state.tipsSeen) {
+  let timer;
+  const io = new IntersectionObserver(([entry]) => {
+    clearTimeout(timer);
+    if (entry.isIntersecting) {
+      timer = setTimeout(() => { state.tipsSeen = true; save(); render(); io.disconnect(); }, 2500);
+    }
+  }, { threshold: 0.6 });
+  io.observe(document.getElementById('tips'));
+}
+
+/* Conto alla rovescia */
+const target = new Date(CONFIG.eventDate).getTime();
+document.getElementById('liveLink').href = CONFIG.liveLink;
+const pad = n => String(n).padStart(2, '0');
+function tick() {
+  const diff = target - Date.now();
+  if (diff <= 0) {
+    document.getElementById('countdown').style.display = 'none';
+    document.getElementById('liveNow').style.display = 'block';
+    document.getElementById('countLabel').textContent = 'Siamo in diretta';
+    return;
+  }
+  const s = Math.floor(diff / 1000);
+  document.getElementById('cd-d').textContent = Math.floor(s / 86400);
+  document.getElementById('cd-h').textContent = pad(Math.floor(s % 86400 / 3600));
+  document.getElementById('cd-m').textContent = pad(Math.floor(s % 3600 / 60));
+  document.getElementById('cd-s').textContent = pad(s % 60);
+  setTimeout(tick, 1000);
+}
+
+tick();
+render();
+</script>
+</body>
+</html>
