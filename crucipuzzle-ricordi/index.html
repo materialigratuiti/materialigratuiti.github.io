@@ -1,0 +1,600 @@
+<title>Crucipuzzle dei Ricordi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Atkinson+Hyperlegible:wght@400;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* Layout: una colonna come un quaderno, un gioco alla volta; carta crema e inchiostro blu come il libro di Ruth Ashbury */
+  :root {
+    color-scheme: light;
+    --paper: #fbf5e8;
+    --sheet: #fffdf7;
+    --ink: #1f3f73;
+    --text: #2b2a33;
+    --muted: #6b6672;
+    --line: #e6dcc6;
+    --orange: #e2702a;
+    --teal: #23877b;
+    --red: #c8463f;
+    --display: 'Alfa Slab One', 'Rockwell', Georgia, serif;
+    --body: 'Atkinson Hyperlegible', 'Verdana', system-ui, sans-serif;
+    --hand: 'Caveat', 'Bradley Hand', cursive;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--text);
+    font: 400 18px/1.55 var(--body);
+    -webkit-tap-highlight-color: transparent;
+  }
+  body::after {
+    /* macchie di acquerello leggere, come le pagine A+ */
+    content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(40% 30% at 92% 4%, rgba(226,112,42,.13), transparent 70%),
+      radial-gradient(38% 28% at 4% 38%, rgba(35,135,123,.10), transparent 70%),
+      radial-gradient(40% 30% at 96% 88%, rgba(200,70,63,.08), transparent 70%);
+  }
+  .wrap {
+    max-width: 620px; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 24px 64px;
+    display: grid; gap: 22px;
+  }
+
+  h1, h2 { font-family: var(--display); font-weight: 400; color: var(--ink); text-wrap: balance; margin: 0; letter-spacing: .01em; }
+  h1 { font-size: clamp(30px, 8.5vw, 44px); line-height: 1.08; }
+  h2 { font-size: clamp(24px, 6.5vw, 32px); line-height: 1.12; }
+  .eyebrow { font-weight: 700; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+  p { margin: 0; }
+
+  /* Intestazione */
+  header { display: grid; gap: 10px; }
+  header .lead { color: var(--muted); }
+  .name-row { display: grid; gap: 6px; margin-top: 8px; }
+  .name-row[hidden], .welcome[hidden] { display: none; }
+  .name-row label { font-weight: 700; font-size: 15px; color: var(--ink); }
+  #nameInput {
+    width: 100%; font: 700 24px/1.2 var(--body); color: var(--ink);
+    background: var(--sheet); border: 2px solid var(--line); border-radius: 14px;
+    padding: 12px 14px; outline: none;
+  }
+  #nameInput:focus-visible { border-color: var(--teal); }
+  #nameInput::placeholder { color: #b7ad99; font-weight: 400; }
+  .name-line { display: flex; gap: 10px; }
+  .name-line #nameInput { flex: 1; min-width: 0; }
+  .welcome { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  #greeting { font-family: var(--hand); font-weight: 700; font-size: 36px; color: var(--orange); line-height: 1.1; overflow-wrap: anywhere; }
+  .welcome .linkish { color: var(--muted); font-size: 15px; }
+
+  /* Riepilogo: cerchio + giochi */
+  .summary {
+    background: var(--sheet); border: 2px solid var(--line); border-radius: 22px;
+    padding: 18px; display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center;
+  }
+  .ring { position: relative; width: 112px; height: 112px; }
+  .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+  .ring circle { fill: none; stroke-width: 10; }
+  .ring .track { stroke: var(--line); }
+  .ring .bar { stroke: var(--orange); stroke-linecap: round; transition: stroke-dashoffset .8s cubic-bezier(.2,.8,.2,1); }
+  .ring .num { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+  .ring .num b { font-family: var(--display); font-weight: 400; font-size: 28px; color: var(--ink); line-height: 1; font-variant-numeric: tabular-nums; }
+  .ring .num span { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .summary-text { display: grid; gap: 4px; min-width: 0; }
+  .summary-text strong { font-size: 18px; color: var(--ink); }
+  .summary-text span { color: var(--muted); font-size: 16px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; grid-column: 1 / -1; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    font: 700 15px/1 var(--body); color: var(--ink);
+    background: var(--paper); border: 2px solid var(--line); border-radius: 999px;
+    padding: 9px 14px 9px 10px; cursor: pointer;
+  }
+  .chip[aria-current="true"] { border-color: var(--ink); background: #eef2fa; }
+  .chip:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  .chip .st { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--muted); flex: none; position: relative; overflow: hidden; }
+  .chip .st i { position: absolute; left: 0; bottom: 0; width: 100%; background: var(--orange); transition: height .4s; }
+  .chip.done .st { border-color: var(--teal); background: var(--teal); }
+  .chip.done .st i { display: none; }
+  .chip.done .st::after { content: ""; position: absolute; left: 4px; top: 1px; width: 4px; height: 8px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+
+  /* Il gioco */
+  .game { background: var(--sheet); border: 2px solid var(--line); border-radius: 22px; padding: 20px 14px 18px; display: grid; gap: 16px; }
+  .game-head { display: grid; gap: 6px; padding: 0 4px; }
+  .game-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .count { font-weight: 700; color: var(--orange); font-variant-numeric: tabular-nums; }
+  .howto { color: var(--muted); font-size: 16px; }
+
+  .board { position: relative; width: 100%; max-width: 560px; margin: 0 auto; touch-action: none; user-select: none; -webkit-user-select: none; }
+  .cells { display: grid; grid-template-columns: repeat(var(--n, 10), 1fr); aspect-ratio: 1; border: 2px solid var(--ink); border-radius: 12px; background: #fff; overflow: hidden; }
+  .cell {
+    display: grid; place-content: center;
+    font: 700 clamp(22px, 7.6vw, 36px)/1 var(--body); color: var(--ink);
+    border-right: 1px solid #edf0f6; border-bottom: 1px solid #edf0f6;
+  }
+  .cell.lc { border-right: 0; }
+  .cell.lr { border-bottom: 0; }
+  .hl { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; }
+  .cap { position: absolute; border-radius: 999px; }
+  .cap.found { animation: paint .35s ease-out; }
+  .cap.live { background: rgba(31, 63, 115, .16); border: 2px dashed rgba(31, 63, 115, .55); }
+  @keyframes paint { from { clip-path: inset(0 100% 0 0 round 999px); } to { clip-path: inset(0 0 0 0 round 999px); } }
+  .hint-ring { position: absolute; border-radius: 50%; border: 3px solid var(--orange); pointer-events: none; animation: hint 1.6s ease-out 2; }
+  @keyframes hint { 0% { transform: scale(1.5); opacity: 0; } 30% { opacity: 1; } 100% { transform: scale(1); opacity: 0; } }
+  .board.nope .cells { animation: nope .35s; }
+  @keyframes nope { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+  .words { list-style: none; margin: 0; padding: 0 4px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+  .words li { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 17px; letter-spacing: .04em; color: var(--ink); min-width: 0; }
+  .words li .dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); flex: none; }
+  .words li.found { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 2px; }
+
+  .tools { display: flex; flex-wrap: wrap; gap: 10px; padding: 0 4px; }
+  button.btn {
+    font: 700 16px/1 var(--body); border-radius: 12px; padding: 13px 16px; cursor: pointer;
+    border: 2px solid var(--ink); background: var(--sheet); color: var(--ink);
+  }
+  button.btn.primary { background: var(--ink); color: #fff; }
+  button.btn:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  .nav { display: flex; justify-content: space-between; gap: 10px; padding: 0 4px; }
+  .nav .btn { flex: 1; }
+
+  /* Pagina dei ricordi */
+  .memory { background: var(--sheet); border: 2px solid var(--line); border-radius: 22px; padding: 20px 18px; display: grid; gap: 10px; }
+  .memory .q { font-size: 19px; color: var(--text); }
+  #memoryText {
+    width: 100%; min-height: 180px; resize: vertical; border: 0; outline: none;
+    font: 500 26px/36px var(--hand); color: var(--ink);
+    padding: 4px 6px 0;
+    background: repeating-linear-gradient(to bottom, transparent 0 35px, var(--line) 35px 36px);
+    background-attachment: local;
+  }
+  #memoryText:focus-visible { box-shadow: 0 0 0 3px rgba(35,135,123,.35); border-radius: 6px; }
+  .saved { font-size: 14px; color: var(--muted); }
+
+  /* Finale */
+  .finale { background: var(--ink); color: #fff; border-radius: 22px; padding: 24px 20px; display: grid; gap: 10px; text-align: center; }
+  .finale h2 { color: #fff; }
+  .finale .hand { font-family: var(--hand); font-size: 30px; color: #ffd2a8; }
+
+  footer { color: var(--muted); font-size: 15px; text-align: center; display: grid; gap: 10px; justify-items: center; }
+  .linkish { background: none; border: 0; padding: 4px; font: inherit; color: var(--red); text-decoration: underline; cursor: pointer; }
+  .confirm { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; align-items: center; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 20px);
+    background: var(--ink); color: #fff; font-weight: 700; padding: 12px 18px; border-radius: 999px;
+    opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 30; white-space: nowrap;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+  #fx { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 20; }
+
+  #printArea { display: none; }
+  @media print {
+    body::after, .wrap, .toast, #fx { display: none !important; }
+    #printArea { display: block; }
+    .print-page { page-break-after: always; padding: 10mm; font-family: var(--body); }
+    .print-page h2 { font-size: 26pt; margin-bottom: 4mm; }
+    .print-grid { display: grid; grid-template-columns: repeat(10, 1fr); border: 2px solid #000; width: 170mm; aspect-ratio: 1; }
+    .print-grid span { display: grid; place-content: center; font: 700 24pt var(--body); color: #000; }
+    .print-words { columns: 2; margin-top: 6mm; font: 700 15pt var(--body); }
+  }
+
+  @media (max-width: 380px) {
+    .summary { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+    .words { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Prova interattiva · 5 giochi</span>
+    <h1>Crucipuzzle dei Ricordi</h1>
+    <p class="lead">Trova le parole nascoste: trascina il dito sulla parola, oppure tocca le lettere una dopo l'altra. Le lettere si colorano e restano leggibili.</p>
+    <form class="name-row" id="nameForm" autocomplete="off">
+      <label for="nameInput">Come ti chiami?</label>
+      <div class="name-line">
+        <input id="nameInput" type="text" placeholder="Scrivi il tuo nome" autocomplete="given-name" enterkeyhint="done" maxlength="30">
+        <button class="btn primary" type="submit">Ok</button>
+      </div>
+    </form>
+    <div class="welcome" id="welcome" hidden>
+      <span id="greeting">Benvenuto</span>
+      <button class="linkish" id="changeName" type="button">Cambia nome</button>
+    </div>
+  </header>
+
+  <section class="summary" aria-label="I tuoi progressi">
+    <div class="ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="track" cx="60" cy="60" r="50"/>
+        <circle class="bar" id="ringBar" cx="60" cy="60" r="50"/>
+      </svg>
+      <div class="num"><b id="totalFound">0</b><span id="totalOf">su 50</span></div>
+    </div>
+    <div class="summary-text">
+      <strong id="summaryTitle">Parole trovate</strong>
+      <span id="summaryLine">Cinque giochi, dieci parole ciascuno.</span>
+    </div>
+    <nav class="chips" id="chips" aria-label="Scegli il gioco"></nav>
+  </section>
+
+  <section class="game" aria-labelledby="gameTitle">
+    <div class="game-head">
+      <div class="game-meta">
+        <span class="eyebrow" id="gameNum">Gioco 1 di 5</span>
+        <span class="count" id="gameCount">0 su 10</span>
+      </div>
+      <h2 id="gameTitle">…</h2>
+    </div>
+
+    <div class="board" id="board">
+      <div class="cells" id="cells" role="grid" aria-label="Griglia del crucipuzzle"></div>
+      <div class="hl" id="hl"></div>
+    </div>
+
+    <ul class="words" id="words"></ul>
+
+    <div class="tools">
+      <button class="btn" id="hintBtn" type="button">Dammi un aiutino</button>
+      <button class="btn" id="printBtn" type="button" hidden>Stampa i giochi</button>
+    </div>
+    <div class="nav">
+      <button class="btn" id="prevBtn" type="button">← Precedente</button>
+      <button class="btn primary" id="nextBtn" type="button">Successivo →</button>
+    </div>
+  </section>
+
+  <section class="memory" aria-labelledby="memTitle">
+    <span class="eyebrow" id="memTitle">La pagina dei ricordi</span>
+    <p class="q" id="memQ"></p>
+    <label for="memoryText" class="saved">Scrivi qui, si salva da solo.</label>
+    <textarea id="memoryText" placeholder="Mi ricordo che…"></textarea>
+  </section>
+
+  <section class="finale" id="finale" hidden>
+    <span class="hand" id="finaleName">Complimenti!</span>
+    <h2>Hai trovato tutte le 50 parole</h2>
+    <p>Cinque giochi completati. I tuoi ricordi restano salvati qui sotto ogni gioco.</p>
+  </section>
+
+  <footer>
+    <span>Tutto quello che fai resta salvato su questo telefono o tablet.</span>
+    <button class="linkish" id="resetBtn" type="button">Ricomincia da zero</button>
+    <div class="confirm" id="resetConfirm" hidden>
+      <span>Cancello parole trovate e ricordi?</span>
+      <button class="btn" id="resetYes" type="button">Sì, cancella</button>
+      <button class="btn" id="resetNo" type="button">No</button>
+    </div>
+  </footer>
+</div>
+
+<div id="printArea"></div>
+
+<script>
+const PUZZLES = [{"id":"cucina","title":"La cucina della nonna","question":"Qual era il piatto che la tua famiglia preparava la domenica?","grid":["FGLLBRODOM","TOVAGLIASP","MBFORNOTCE","EIFAOAUARN","SSAVUSOGET","TCREAOCLDO","OOIEUAOIEL","LTNMKENENA","OTAOCTARZL","DIMOOTCEAG"],"words":[{"w":"PENTOLA","s":[1,9],"e":[7,9]},{"w":"TAGLIERE","s":[2,7],"e":[9,7]},{"w":"FORNO","s":[2,2],"e":[2,6]},{"w":"TOVAGLIA","s":[1,0],"e":[1,7]},{"w":"MOKA","s":[9,2],"e":[6,5]},{"w":"FARINA","s":[3,2],"e":[8,2]},{"w":"BRODO","s":[0,4],"e":[0,8]},{"w":"MESTOLO","s":[2,0],"e":[8,0]},{"w":"CREDENZA","s":[2,8],"e":[9,8]},{"w":"BISCOTTI","s":[2,1],"e":[9,1]}]},{"id":"cortile","title":"Il cortile di casa","question":"Chi si sedeva con te in cortile nelle sere d'estate?","grid":["GLANTERNAA","RPERGOLACI","EBSEGERANI","LISCDFTVLN","GATTOAAABT","TICTNIRSUA","FACODSRICF","GCMEOIRAAM","IISTLOMITM","LNMSOAFNOA"],"words":[{"w":"SEDIA","s":[8,2],"e":[4,6]},{"w":"DONDOLO","s":[3,4],"e":[9,4]},{"w":"GERANI","s":[2,4],"e":[2,9]},{"w":"LIMONATA","s":[9,0],"e":[2,7]},{"w":"AMACA","s":[9,5],"e":[5,9]},{"w":"GATTO","s":[4,0],"e":[4,4]},{"w":"PERGOLA","s":[1,1],"e":[1,7]},{"w":"BUCATO","s":[4,8],"e":[9,8]},{"w":"VASI","s":[3,7],"e":[6,7]},{"w":"LANTERNA","s":[0,1],"e":[0,8]}]},{"id":"mare","title":"Estate al mare","question":"Ti ricordi la prima volta che hai visto il mare?","grid":["OMBRELLOAE","RDRONDEINE","CAELLLBBAC","OATOUBSACT","SGILAUERAD","TENSMPCCBG","ULOTASCAIM","MAARLPHCNU","ETSDRAIOAA","UONRTLOSGA"],"words":[{"w":"OMBRELLO","s":[0,0],"e":[0,7]},{"w":"SECCHIO","s":[3,6],"e":[9,6]},{"w":"BARCA","s":[2,7],"e":[6,7]},{"w":"SABBIA","s":[5,3],"e":[0,8]},{"w":"ONDE","s":[1,3],"e":[1,6]},{"w":"GELATO","s":[4,1],"e":[9,1]},{"w":"CABINA","s":[3,8],"e":[8,8]},{"w":"COSTUME","s":[2,0],"e":[8,0]},{"w":"SDRAIO","s":[8,2],"e":[8,7]},{"w":"RETINO","s":[1,2],"e":[6,2]}]},{"id":"scuola","title":"La scuola di una volta","question":"Come si chiamava la tua maestra o il tuo maestro?","grid":["ELTMERENDA","GIDTUGESSO","CLAVAGNALE","QUADERNOAL","BCCALAMAIO","PLCARTELLA","RSDEBANCOD","MAESTRALSM","UVAABACOEN","RPENNINODA"],"words":[{"w":"LAVAGNA","s":[2,1],"e":[2,7]},{"w":"GESSO","s":[1,5],"e":[1,9]},{"w":"CALAMAIO","s":[4,2],"e":[4,9]},{"w":"PENNINO","s":[9,1],"e":[9,7]},{"w":"BANCO","s":[6,4],"e":[6,8]},{"w":"CARTELLA","s":[5,2],"e":[5,9]},{"w":"MAESTRA","s":[7,0],"e":[7,6]},{"w":"QUADERNO","s":[3,0],"e":[3,7]},{"w":"ABACO","s":[8,3],"e":[8,7]},{"w":"MERENDA","s":[0,3],"e":[0,9]}]},{"id":"festa","title":"La festa del paese","question":"Qual era la festa del tuo paese che aspettavi tutto l'anno?","grid":["CONFETTIII","MATMFLSITG","LLFUOCHION","UMOGANVCRP","CEETILTERB","IEOSTOEUOA","IDARSESGNN","BALLOARTED","PALLONIIRA","LGPAUNMSAA"],"words":[{"w":"BANDA","s":[4,9],"e":[8,9]},{"w":"GIOSTRA","s":[3,3],"e":[9,9]},{"w":"PALLONI","s":[8,0],"e":[8,6]},{"w":"TORRONE","s":[1,8],"e":[7,8]},{"w":"MESSA","s":[3,1],"e":[7,5]},{"w":"FUOCHI","s":[2,2],"e":[2,7]},{"w":"LUCI","s":[2,0],"e":[5,0]},{"w":"BALLO","s":[7,0],"e":[7,4]},{"w":"LOTTERIA","s":[2,1],"e":[9,8]},{"w":"CONFETTI","s":[0,0],"e":[0,7]}]}];
+
+/* Colori dell'evidenziatore: trasparenti, così le lettere sotto si leggono */
+const MARKERS = ['rgba(242,150,70,.55)','rgba(70,190,170,.50)','rgba(240,120,150,.45)','rgba(250,205,70,.60)','rgba(150,140,230,.45)','rgba(130,200,100,.50)'];
+const SPARK = ['#e2702a','#23877b','#f2b544','#c8463f','#6f8fd8'];
+const N = 10;
+const KEY = 'crucipuzzle-ricordi-prova';
+
+/* ---------- salvataggio ---------- */
+function blank() { return { name: '', current: 0, p: {} }; }
+let state = blank();
+try { state = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+function pstate(i) {
+  const id = PUZZLES[i].id;
+  if (!state.p[id]) state.p[id] = { found: [], memory: '' };
+  return state.p[id];
+}
+
+/* ---------- elementi ---------- */
+const $ = id => document.getElementById(id);
+const cellsEl = $('cells'), hlEl = $('hl'), boardEl = $('board');
+const ringBar = $('ringBar');
+const RC = 2 * Math.PI * 50;
+ringBar.style.strokeDasharray = RC;
+ringBar.style.strokeDashoffset = RC;
+
+/* ---------- utilità griglia ---------- */
+function wordCells(w) {
+  const [r0, c0] = w.s, [r1, c1] = w.e;
+  const dr = Math.sign(r1 - r0), dc = Math.sign(c1 - c0);
+  const len = Math.max(Math.abs(r1 - r0), Math.abs(c1 - c0)) + 1;
+  return Array.from({ length: len }, (_, i) => [r0 + dr * i, c0 + dc * i]);
+}
+function sameCells(a, b) {
+  if (a.length !== b.length) return false;
+  const fwd = a.every((x, i) => x[0] === b[i][0] && x[1] === b[i][1]);
+  const rev = a.every((x, i) => x[0] === b[b.length - 1 - i][0] && x[1] === b[b.length - 1 - i][1]);
+  return fwd || rev;
+}
+function lineCells(a, b) {
+  let dr = b[0] - a[0], dc = b[1] - a[1];
+  if (!(dr === 0 || dc === 0 || Math.abs(dr) === Math.abs(dc))) {
+    const k = Math.round(Math.atan2(dr, dc) / (Math.PI / 4));
+    const ur = Math.round(Math.sin(k * Math.PI / 4)), uc = Math.round(Math.cos(k * Math.PI / 4));
+    const len = Math.max(Math.abs(dr), Math.abs(dc));
+    dr = ur * len; dc = uc * len;
+  }
+  const len = Math.max(Math.abs(dr), Math.abs(dc));
+  const sr = Math.sign(dr), sc = Math.sign(dc), out = [];
+  for (let i = 0; i <= len; i++) {
+    const r = a[0] + sr * i, c = a[1] + sc * i;
+    if (r < 0 || r >= N || c < 0 || c >= N) break;
+    out.push([r, c]);
+  }
+  return out;
+}
+
+/* ---------- disegno ---------- */
+function cellSize() { return cellsEl.clientWidth / N; }
+function capsule(cells, cls, color) {
+  const u = cellSize(), a = cells[0], b = cells[cells.length - 1];
+  const x1 = (a[1] + .5) * u, y1 = (a[0] + .5) * u, x2 = (b[1] + .5) * u, y2 = (b[0] + .5) * u;
+  const h = u * .8, len = Math.hypot(x2 - x1, y2 - y1);
+  const d = document.createElement('div');
+  d.className = 'cap ' + cls;
+  Object.assign(d.style, {
+    left: (x1 - h / 2) + 'px', top: (y1 - h / 2) + 'px',
+    width: (len + h) + 'px', height: h + 'px',
+    transformOrigin: (h / 2) + 'px ' + (h / 2) + 'px',
+    transform: 'rotate(' + Math.atan2(y2 - y1, x2 - x1) + 'rad)'
+  });
+  if (color) d.style.background = color;
+  return d;
+}
+
+let liveCells = null, tapSel = [];
+function drawHighlights(animIdx) {
+  const P = PUZZLES[state.current], ps = pstate(state.current);
+  hlEl.innerHTML = '';
+  ps.found.forEach(wi => {
+    const cap = capsule(wordCells(P.words[wi]), wi === animIdx ? 'found' : '', MARKERS[wi % MARKERS.length]);
+    hlEl.appendChild(cap);
+  });
+  const sel = liveCells || (tapSel.length ? tapSel : null);
+  if (sel) hlEl.appendChild(capsule(sel, 'live'));
+}
+
+function renderGame() {
+  const i = state.current, P = PUZZLES[i], ps = pstate(i);
+  $('gameNum').textContent = 'Gioco ' + (i + 1) + ' di ' + PUZZLES.length;
+  $('gameTitle').textContent = P.title;
+  $('gameCount').textContent = ps.found.length + ' su ' + P.words.length;
+  cellsEl.style.setProperty('--n', N);
+  cellsEl.innerHTML = P.grid.map((row, r) => [...row].map((ch, c) =>
+    '<div class="cell' + (c === N - 1 ? ' lc' : '') + (r === N - 1 ? ' lr' : '') + '" role="gridcell">' + ch + '</div>').join('')).join('');
+  $('words').innerHTML = P.words.map((w, wi) => {
+    const f = ps.found.includes(wi);
+    const dot = f ? ' style="background:' + MARKERS[wi % MARKERS.length] + ';border-color:transparent"' : '';
+    return '<li class="' + (f ? 'found' : '') + '"><span class="dot"' + dot + '></span>' + w.w + '</li>';
+  }).join('');
+  $('memQ').textContent = P.question;
+  $('memoryText').value = ps.memory || '';
+  $('prevBtn').disabled = i === 0;
+  $('nextBtn').textContent = i === PUZZLES.length - 1 ? 'Torna al primo →' : 'Successivo →';
+  liveCells = null; tapSel = [];
+  requestAnimationFrame(() => drawHighlights());
+}
+
+function renderSummary() {
+  let total = 0, all = 0;
+  const chips = PUZZLES.map((P, i) => {
+    const n = pstate(i).found.length, done = n === P.words.length;
+    total += n; all += P.words.length;
+    const pct = Math.round(n / P.words.length * 100);
+    return '<button class="chip' + (done ? ' done' : '') + '" type="button" data-i="' + i + '" aria-current="' + (i === state.current) + '">' +
+      '<span class="st"><i style="height:' + pct + '%"></i></span>' + (i + 1) + ' · ' + P.title.replace(/^(La|Il|L')\s?/, '').replace(/^./, m => m.toUpperCase()) + '</button>';
+  }).join('');
+  $('chips').innerHTML = chips;
+  $('totalFound').textContent = total;
+  $('totalOf').textContent = 'su ' + all;
+  ringBar.style.strokeDashoffset = RC * (1 - total / all);
+  const doneCount = PUZZLES.filter((P, i) => pstate(i).found.length === P.words.length).length;
+  $('summaryLine').textContent = doneCount === 0 ? 'Cinque giochi, dieci parole ciascuno.' :
+    doneCount + (doneCount === 1 ? ' gioco completato' : ' giochi completati') + ' su ' + PUZZLES.length + '.';
+  const finished = total === all;
+  $('finale').hidden = !finished;
+  $('finaleName').textContent = state.name.trim() ? 'Complimenti, ' + state.name.trim() + '!' : 'Complimenti!';
+  return finished;
+}
+
+function renderName() {
+  const n = state.name.trim();
+  $('nameForm').hidden = !!n;
+  $('welcome').hidden = !n;
+  $('greeting').textContent = n ? 'Benvenuto ' + n : '';
+}
+
+/* ---------- trovare le parole ---------- */
+function tryMatch(cells, quiet) {
+  if (!cells || cells.length < 2) return false;
+  const i = state.current, P = PUZZLES[i], ps = pstate(i);
+  const wi = P.words.findIndex((w, k) => !ps.found.includes(k) && sameCells(cells, wordCells(w)));
+  if (wi < 0) {
+    if (!quiet) { boardEl.classList.remove('nope'); void boardEl.offsetWidth; boardEl.classList.add('nope'); }
+    return false;
+  }
+  ps.found.push(wi); save();
+  const wasDone = ps.found.length === P.words.length;
+  renderGame(); drawHighlights(wi);
+  const allDone = renderSummary();
+  const r = cellsEl.getBoundingClientRect(), u = cellSize();
+  const mid = cells[Math.floor(cells.length / 2)];
+  burst(r.left + (mid[1] + .5) * u, r.top + (mid[0] + .5) * u, 22, 1);
+  if (allDone) { toast('Tutte le 50 parole! Bravissimo'); celebrate(7); }
+  else if (wasDone) { toast('Gioco completato!'); celebrate(4); }
+  else toast('Trovata: ' + P.words[wi].w);
+  return true;
+}
+
+function cellAt(e) {
+  const r = cellsEl.getBoundingClientRect(), u = r.width / N;
+  const c = Math.min(N - 1, Math.max(0, Math.floor((e.clientX - r.left) / u)));
+  const rr = Math.min(N - 1, Math.max(0, Math.floor((e.clientY - r.top) / u)));
+  return [rr, c];
+}
+
+let start = null, moved = false;
+boardEl.addEventListener('pointerdown', e => {
+  if (e.button > 0) return;
+  e.preventDefault();
+  start = cellAt(e); moved = false;
+});
+boardEl.addEventListener('pointermove', e => {
+  if (!start) return;
+  const cur = cellAt(e);
+  if (cur[0] !== start[0] || cur[1] !== start[1]) moved = true;
+  if (moved) { tapSel = []; liveCells = lineCells(start, cur); drawHighlights(); }
+});
+function endPointer() {
+  if (!start) return;
+  if (moved) { const cells = liveCells; liveCells = null; if (!tryMatch(cells)) drawHighlights(); }
+  else tap(start);
+  start = null;
+}
+boardEl.addEventListener('pointerup', endPointer);
+boardEl.addEventListener('pointercancel', () => { start = null; liveCells = null; drawHighlights(); });
+
+/* tocco lettera per lettera */
+function tap(cell) {
+  const last = tapSel[tapSel.length - 1];
+  const eq = (a, b) => a && a[0] === b[0] && a[1] === b[1];
+  if (!last) tapSel = [cell];
+  else if (eq(last, cell)) tapSel.pop();
+  else {
+    const dr = cell[0] - last[0], dc = cell[1] - last[1];
+    const adjacent = Math.abs(dr) <= 1 && Math.abs(dc) <= 1;
+    if (tapSel.length === 1 && adjacent) tapSel.push(cell);
+    else if (tapSel.length > 1 && adjacent &&
+      dr === tapSel[1][0] - tapSel[0][0] && dc === tapSel[1][1] - tapSel[0][1]) tapSel.push(cell);
+    else tapSel = [cell];
+  }
+  if (tapSel.length > 1 && tryMatch(tapSel, true)) { tapSel = []; return; }
+  drawHighlights();
+}
+
+/* ---------- aiutino ---------- */
+$('hintBtn').addEventListener('click', () => {
+  const P = PUZZLES[state.current], ps = pstate(state.current);
+  const left = P.words.map((w, k) => k).filter(k => !ps.found.includes(k));
+  if (!left.length) { toast('Qui hai già trovato tutto'); return; }
+  const w = P.words[left[Math.floor(Math.random() * left.length)]];
+  const u = cellSize(), d = document.createElement('div');
+  d.className = 'hint-ring';
+  Object.assign(d.style, { left: (w.s[1] * u + 2) + 'px', top: (w.s[0] * u + 2) + 'px', width: (u - 4) + 'px', height: (u - 4) + 'px' });
+  boardEl.appendChild(d);
+  setTimeout(() => d.remove(), 3300);
+  toast('Cerca ' + w.w + ': comincia dal cerchio');
+});
+
+/* ---------- navigazione ---------- */
+function go(i) {
+  state.current = (i + PUZZLES.length) % PUZZLES.length; save();
+  renderGame(); renderSummary();
+  boardEl.closest('.game').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+$('chips').addEventListener('click', e => { const b = e.target.closest('.chip'); if (b) go(+b.dataset.i); });
+$('prevBtn').addEventListener('click', () => go(state.current - 1));
+$('nextBtn').addEventListener('click', () => go(state.current + 1));
+
+/* ---------- nome e ricordi ---------- */
+$('nameForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const n = $('nameInput').value.trim();
+  if (!n) { $('nameInput').focus(); return; }
+  state.name = n; save(); $('nameInput').blur();
+  renderName(); renderSummary();
+});
+$('changeName').addEventListener('click', () => {
+  $('nameInput').value = state.name;
+  state.name = ''; save(); renderName();
+  $('nameInput').focus();
+});
+$('memoryText').addEventListener('input', e => { pstate(state.current).memory = e.target.value; save(); });
+
+/* ---------- ricomincia ---------- */
+$('resetBtn').addEventListener('click', () => { $('resetConfirm').hidden = false; $('resetBtn').hidden = true; });
+$('resetNo').addEventListener('click', () => { $('resetConfirm').hidden = true; $('resetBtn').hidden = false; });
+$('resetYes').addEventListener('click', () => {
+  const name = state.name; state = blank(); state.name = name; save();
+  $('resetConfirm').hidden = true; $('resetBtn').hidden = false;
+  renderGame(); renderSummary(); toast('Si ricomincia');
+});
+
+/* ---------- stampa (attiva quando la pagina è online su Netlify) ---------- */
+if (window.self === window.top) {
+  $('printBtn').hidden = false;
+  $('printBtn').addEventListener('click', () => {
+    $('printArea').innerHTML = PUZZLES.map(P =>
+      '<section class="print-page"><h2>' + P.title + '</h2><div class="print-grid">' +
+      [...P.grid.join('')].map(ch => '<span>' + ch + '</span>').join('') +
+      '</div><div class="print-words">' + P.words.map(w => '<div>☐ ' + w.w + '</div>').join('') + '</div></section>').join('');
+    window.print();
+  });
+}
+
+/* ---------- messaggi ---------- */
+let toastT;
+function toast(msg) {
+  const t = $('toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+/* ---------- fuochi d'artificio leggeri ---------- */
+const fx = $('fx'), ctx = fx.getContext('2d');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let parts = [], raf = 0;
+function sizeFx() { const d = devicePixelRatio || 1; fx.width = innerWidth * d; fx.height = innerHeight * d; ctx.setTransform(d, 0, 0, d, 0, 0); }
+sizeFx();
+function burst(x, y, n, scale) {
+  if (reduce) return;
+  const col = SPARK[Math.floor(Math.random() * SPARK.length)];
+  for (let k = 0; k < n; k++) {
+    const a = (k / n) * Math.PI * 2 + Math.random() * .3, sp = (1.6 + Math.random() * 2.2) * scale;
+    parts.push({ x, y, px: x, py: y, vx: Math.cos(a) * sp, vy: Math.sin(a) * sp, life: 1, decay: .018 + Math.random() * .012, col: Math.random() < .25 ? '#f2b544' : col });
+  }
+  if (!raf) raf = requestAnimationFrame(step);
+}
+function celebrate(times) {
+  if (reduce) return;
+  for (let k = 0; k < times; k++) setTimeout(() => {
+    burst(innerWidth * (.2 + Math.random() * .6), innerHeight * (.15 + Math.random() * .25), 44, 1.6);
+  }, k * 380);
+}
+function step() {
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  ctx.lineCap = 'round';
+  parts = parts.filter(p => p.life > 0);
+  for (const p of parts) {
+    p.px = p.x; p.py = p.y;
+    p.vx *= .97; p.vy = p.vy * .97 + .045;
+    p.x += p.vx; p.y += p.vy; p.life -= p.decay;
+    ctx.globalAlpha = Math.max(0, p.life);
+    ctx.strokeStyle = p.col; ctx.lineWidth = 2.2;
+    ctx.beginPath(); ctx.moveTo(p.px, p.py); ctx.lineTo(p.x, p.y); ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+  raf = parts.length ? requestAnimationFrame(step) : 0;
+  if (!raf) ctx.clearRect(0, 0, innerWidth, innerHeight);
+}
+
+addEventListener('resize', () => { sizeFx(); drawHighlights(); });
+
+renderName();
+renderGame();
+renderSummary();
+</script>
