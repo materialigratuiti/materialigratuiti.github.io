@@ -1,0 +1,6002 @@
+[
+ {
+  "case": 1,
+  "clue": "TEAPOT",
+  "words": [
+   "BISCUIT",
+   "CASSOCK",
+   "CURATE",
+   "DRESSER",
+   "HYMNAL",
+   "KETTLE",
+   "LEMON",
+   "MARMALADE",
+   "PARISH",
+   "PULPIT",
+   "SAUCER",
+   "SCONE",
+   "SERMON",
+   "SUGAR",
+   "TRAY"
+  ],
+  "grid": [
+   "TRKIJWIPTEFWMHT",
+   "TITIMFFKAELTTEK",
+   "EPPYQCEASCUOGQY",
+   "ALNLTVUHUCURATE",
+   "PXQIUSUSGMYJELL",
+   "OHSEEPOIAZLESAB",
+   "TLYROWJRRCREZFX",
+   "YUMMCBMAJIQRMZI",
+   "ZORJNAEPQESRVOX",
+   "NVOELAYTNDEEYQN",
+   "CTPASALOBISCUIT",
+   "VYDZRSCYMMQULIN",
+   "XEJTWSEDEIUAEKN",
+   "ZJXKKKBRKCOSSAC",
+   "FEWNBEVSDIIMJVA"
+  ],
+  "placed": {
+   "MARMALADE": {
+    "row": 4,
+    "col": 9,
+    "dir": "SW"
+   },
+   "BISCUIT": {
+    "row": 10,
+    "col": 8,
+    "dir": "E"
+   },
+   "DRESSER": {
+    "row": 14,
+    "col": 8,
+    "dir": "NW"
+   },
+   "CASSOCK": {
+    "row": 13,
+    "col": 14,
+    "dir": "W"
+   },
+   "SAUCER": {
+    "row": 13,
+    "col": 11,
+    "dir": "N"
+   },
+   "KETTLE": {
+    "row": 1,
+    "col": 14,
+    "dir": "W"
+   },
+   "PULPIT": {
+    "row": 5,
+    "col": 5,
+    "dir": "NW"
+   },
+   "HYMNAL": {
+    "row": 5,
+    "col": 1,
+    "dir": "SE"
+   },
+   "SERMON": {
+    "row": 4,
+    "col": 5,
+    "dir": "SW"
+   },
+   "CURATE": {
+    "row": 3,
+    "col": 9,
+    "dir": "E"
+   },
+   "PARISH": {
+    "row": 8,
+    "col": 7,
+    "dir": "N"
+   },
+   "TEAPOT": {
+    "row": 1,
+    "col": 0,
+    "dir": "S"
+   },
+   "SCONE": {
+    "row": 12,
+    "col": 5,
+    "dir": "NE"
+   },
+   "LEMON": {
+    "row": 5,
+    "col": 10,
+    "dir": "SE"
+   },
+   "SUGAR": {
+    "row": 2,
+    "col": 8,
+    "dir": "S"
+   },
+   "TRAY": {
+    "row": 12,
+    "col": 3,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 2,
+  "clue": "HORSESHOE",
+  "words": [
+   "ANVIL",
+   "APPRENTICE",
+   "BELLOWS",
+   "BRAZIER",
+   "CHARCOAL",
+   "FORGE",
+   "FURNACE",
+   "HAMMER",
+   "HEARTH",
+   "MOLTEN",
+   "QUENCH",
+   "RIVET",
+   "SMITH",
+   "SPARKS",
+   "TONGS"
+  ],
+  "grid": [
+   "HYUZRVKGQQFPXVI",
+   "ZEOMOLTENGKKSOE",
+   "TFAIHFREZWLFCCS",
+   "CYYRREIZARBHAWA",
+   "JTTQTOBXWPSNOGN",
+   "ALAWIHEWMMRLTCV",
+   "PQAPMSLRIULBQNI",
+   "PQUOYEOTFEHJRFL",
+   "RCOICSHSBSOSNLC",
+   "EJZGPRKVEQKGWCM",
+   "NOSYTOARLRURXOF",
+   "TPGVVHOHIXFEATK",
+   "IQNAHMJVCAHANPY",
+   "CWOGIVEHAMMERCS",
+   "EGTWZTPEGROFNTH"
+  ],
+  "placed": {
+   "APPRENTICE": {
+    "row": 5,
+    "col": 0,
+    "dir": "S"
+   },
+   "HORSESHOE": {
+    "row": 11,
+    "col": 5,
+    "dir": "N"
+   },
+   "CHARCOAL": {
+    "row": 12,
+    "col": 8,
+    "dir": "NW"
+   },
+   "BELLOWS": {
+    "row": 8,
+    "col": 8,
+    "dir": "NE"
+   },
+   "FURNACE": {
+    "row": 7,
+    "col": 8,
+    "dir": "NE"
+   },
+   "BRAZIER": {
+    "row": 3,
+    "col": 10,
+    "dir": "W"
+   },
+   "HAMMER": {
+    "row": 13,
+    "col": 7,
+    "dir": "E"
+   },
+   "SPARKS": {
+    "row": 13,
+    "col": 14,
+    "dir": "NW"
+   },
+   "QUENCH": {
+    "row": 9,
+    "col": 9,
+    "dir": "SE"
+   },
+   "HEARTH": {
+    "row": 0,
+    "col": 0,
+    "dir": "SE"
+   },
+   "MOLTEN": {
+    "row": 1,
+    "col": 3,
+    "dir": "E"
+   },
+   "ANVIL": {
+    "row": 3,
+    "col": 14,
+    "dir": "S"
+   },
+   "TONGS": {
+    "row": 14,
+    "col": 2,
+    "dir": "N"
+   },
+   "SMITH": {
+    "row": 4,
+    "col": 10,
+    "dir": "SW"
+   },
+   "RIVET": {
+    "row": 10,
+    "col": 9,
+    "dir": "SW"
+   },
+   "FORGE": {
+    "row": 14,
+    "col": 11,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 3,
+  "clue": "ENVELOPE",
+  "words": [
+   "AIRMAIL",
+   "COUNTER",
+   "COURIER",
+   "LETTERBOX",
+   "MAILBAG",
+   "PARCEL",
+   "PIGEONHOLE",
+   "POSTCODE",
+   "POSTMARK",
+   "REGISTERED",
+   "SCALES",
+   "SORTING",
+   "STAMP",
+   "STATIONERY",
+   "TELEGRAM"
+  ],
+  "grid": [
+   "VBXOAFGNITROSIJ",
+   "LUBTLGSKCLLYSSH",
+   "UYIOLETTERBOXOE",
+   "MQFRCJABNGVMWOP",
+   "ALHADOBMEAWALXO",
+   "IGIVOPUDWOMRGRL",
+   "LSTATIONERYGHEE",
+   "BFEJMCPSTSJEYGV",
+   "AFELTRCATEFLSIN",
+   "GTCSAOIARMREHSE",
+   "XWOVUCMACCATWTB",
+   "JPJRKPSOZWERPEI",
+   "IUIPGSHLEPXLKRQ",
+   "NEPELOHNOEGIPEI",
+   "RMPCUVIEBEGDHDP"
+  ],
+  "placed": {
+   "PIGEONHOLE": {
+    "row": 13,
+    "col": 12,
+    "dir": "W"
+   },
+   "STATIONERY": {
+    "row": 6,
+    "col": 1,
+    "dir": "E"
+   },
+   "REGISTERED": {
+    "row": 5,
+    "col": 13,
+    "dir": "S"
+   },
+   "LETTERBOX": {
+    "row": 2,
+    "col": 4,
+    "dir": "E"
+   },
+   "POSTCODE": {
+    "row": 11,
+    "col": 1,
+    "dir": "NE"
+   },
+   "TELEGRAM": {
+    "row": 10,
+    "col": 11,
+    "dir": "N"
+   },
+   "POSTMARK": {
+    "row": 5,
+    "col": 5,
+    "dir": "SE"
+   },
+   "ENVELOPE": {
+    "row": 9,
+    "col": 14,
+    "dir": "N"
+   },
+   "COUNTER": {
+    "row": 3,
+    "col": 4,
+    "dir": "SE"
+   },
+   "AIRMAIL": {
+    "row": 10,
+    "col": 7,
+    "dir": "NW"
+   },
+   "MAILBAG": {
+    "row": 3,
+    "col": 0,
+    "dir": "S"
+   },
+   "COURIER": {
+    "row": 8,
+    "col": 6,
+    "dir": "SW"
+   },
+   "SORTING": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   },
+   "PARCEL": {
+    "row": 7,
+    "col": 6,
+    "dir": "SE"
+   },
+   "SCALES": {
+    "row": 11,
+    "col": 6,
+    "dir": "NW"
+   },
+   "STAMP": {
+    "row": 7,
+    "col": 9,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 4,
+  "clue": "CANDLE",
+  "words": [
+   "ALTAR",
+   "ARCHWAY",
+   "CHALICE",
+   "CHAPEL",
+   "COBWEB",
+   "DAMP",
+   "EPITAPH",
+   "HYMNBOOK",
+   "INCENSE",
+   "RELIC",
+   "SHADOW",
+   "STAIRCASE",
+   "TAPESTRY",
+   "TOMB",
+   "VAULT"
+  ],
+  "grid": [
+   "ZFNXRKGQTMKRBUX",
+   "ASNEJSOVAULTJRB",
+   "QPLKJTOODVWAAAR",
+   "HIYLEATABNTWKTM",
+   "CVJXSIQCCNYKULD",
+   "VEGXNRNLHSMBUAP",
+   "OTFDECIARAMYXKT",
+   "QHOUCAURWOLTHAK",
+   "GUPCNSGCTOUIPOH",
+   "AETRIESHCXDECPV",
+   "CHAPELUWUOSAAEM",
+   "MZMELDNACTBTHTI",
+   "RJMTECJYRYIWNSA",
+   "VEZTHACYOPKDEQO",
+   "ZQPMADVVEZBPDBQ"
+  ],
+  "placed": {
+   "STAIRCASE": {
+    "row": 1,
+    "col": 5,
+    "dir": "S"
+   },
+   "TAPESTRY": {
+    "row": 6,
+    "col": 14,
+    "dir": "SW"
+   },
+   "HYMNBOOK": {
+    "row": 7,
+    "col": 12,
+    "dir": "NW"
+   },
+   "CHALICE": {
+    "row": 4,
+    "col": 7,
+    "dir": "SE"
+   },
+   "INCENSE": {
+    "row": 9,
+    "col": 4,
+    "dir": "N"
+   },
+   "ARCHWAY": {
+    "row": 6,
+    "col": 7,
+    "dir": "S"
+   },
+   "EPITAPH": {
+    "row": 14,
+    "col": 8,
+    "dir": "NE"
+   },
+   "COBWEB": {
+    "row": 9,
+    "col": 8,
+    "dir": "SE"
+   },
+   "CHAPEL": {
+    "row": 10,
+    "col": 0,
+    "dir": "E"
+   },
+   "SHADOW": {
+    "row": 12,
+    "col": 13,
+    "dir": "NW"
+   },
+   "CANDLE": {
+    "row": 11,
+    "col": 8,
+    "dir": "W"
+   },
+   "VAULT": {
+    "row": 1,
+    "col": 7,
+    "dir": "E"
+   },
+   "ALTAR": {
+    "row": 5,
+    "col": 13,
+    "dir": "N"
+   },
+   "RELIC": {
+    "row": 0,
+    "col": 4,
+    "dir": "SW"
+   },
+   "TOMB": {
+    "row": 8,
+    "col": 8,
+    "dir": "NE"
+   },
+   "DAMP": {
+    "row": 14,
+    "col": 5,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 5,
+  "clue": "UMBRELLA",
+  "words": [
+   "BENCH",
+   "COBBLES",
+   "DRIVER",
+   "DRIZZLE",
+   "FARE",
+   "GUTTER",
+   "MUDDY",
+   "PASSENGER",
+   "PUDDLE",
+   "RAINCOAT",
+   "ROUTE",
+   "SHELTER",
+   "THUNDER",
+   "TIMETABLE",
+   "WELLIES"
+  ],
+  "grid": [
+   "GISKBOLBYRLRUEJ",
+   "ECHHSLXVEDWMALT",
+   "EHEPGEUVPMBRABH",
+   "FYLLXWIQBRPSSAT",
+   "BWTDBREPEAQJETH",
+   "OBERDLMLSGLCIEU",
+   "JBRCZVLSOWHWLMN",
+   "JWZZRAECBBSQLID",
+   "UZIYENOROUEGETE",
+   "FRPQGKXZEBQNWER",
+   "DPOEMFHEETBECPC",
+   "OYRYDDUMQRTLTHX",
+   "PLROUTEHTZAUENV",
+   "LELDDUPXBKLFGSZ",
+   "RAINCOATOJKBGVY"
+  ],
+  "placed": {
+   "TIMETABLE": {
+    "row": 8,
+    "col": 13,
+    "dir": "N"
+   },
+   "PASSENGER": {
+    "row": 3,
+    "col": 10,
+    "dir": "SW"
+   },
+   "RAINCOAT": {
+    "row": 14,
+    "col": 0,
+    "dir": "E"
+   },
+   "UMBRELLA": {
+    "row": 0,
+    "col": 12,
+    "dir": "SW"
+   },
+   "SHELTER": {
+    "row": 0,
+    "col": 2,
+    "dir": "S"
+   },
+   "DRIZZLE": {
+    "row": 10,
+    "col": 0,
+    "dir": "NE"
+   },
+   "THUNDER": {
+    "row": 3,
+    "col": 14,
+    "dir": "S"
+   },
+   "WELLIES": {
+    "row": 9,
+    "col": 12,
+    "dir": "N"
+   },
+   "COBBLES": {
+    "row": 7,
+    "col": 7,
+    "dir": "SE"
+   },
+   "PUDDLE": {
+    "row": 13,
+    "col": 6,
+    "dir": "W"
+   },
+   "GUTTER": {
+    "row": 13,
+    "col": 12,
+    "dir": "NW"
+   },
+   "DRIVER": {
+    "row": 5,
+    "col": 4,
+    "dir": "NE"
+   },
+   "BENCH": {
+    "row": 7,
+    "col": 9,
+    "dir": "SE"
+   },
+   "MUDDY": {
+    "row": 11,
+    "col": 7,
+    "dir": "W"
+   },
+   "ROUTE": {
+    "row": 12,
+    "col": 2,
+    "dir": "E"
+   },
+   "FARE": {
+    "row": 13,
+    "col": 11,
+    "dir": "NW"
+   }
+  }
+ },
+ {
+  "case": 6,
+  "clue": "LANTERN",
+  "words": [
+   "CANOE",
+   "CURRENT",
+   "DINGHY",
+   "HERON",
+   "JETTY",
+   "LIFEJACKET",
+   "LOCK",
+   "MOORING",
+   "PADDLE",
+   "PONTOON",
+   "RAFT",
+   "REEDS",
+   "RUDDER",
+   "SCULL",
+   "WILLOW"
+  ],
+  "grid": [
+   "HRLANTERNGSMPFO",
+   "MEEHXXRXFJETTYI",
+   "ZNRAMRHBLBFCFVT",
+   "UZTOBBEOGAUAGYN",
+   "DSTKNVCZRKGNBGB",
+   "RPJEOKXEXDIOWXR",
+   "XUAEKZJAQRIECTE",
+   "OYTDDCNNOXQUJID",
+   "WHAJDEAOOHRMBGD",
+   "IGHHFLMJORENONU",
+   "LNAFGIEGETJMMGR",
+   "LISDEERNGFNTADO",
+   "ODHPOLTNMEIONFV",
+   "WWGGGCYNLPCLPCW",
+   "KJQVLLUCSPDXMHJ"
+  ],
+  "placed": {
+   "LIFEJACKET": {
+    "row": 13,
+    "col": 11,
+    "dir": "NW"
+   },
+   "MOORING": {
+    "row": 9,
+    "col": 6,
+    "dir": "NE"
+   },
+   "PONTOON": {
+    "row": 13,
+    "col": 12,
+    "dir": "NW"
+   },
+   "CURRENT": {
+    "row": 6,
+    "col": 12,
+    "dir": "SW"
+   },
+   "LANTERN": {
+    "row": 0,
+    "col": 2,
+    "dir": "E"
+   },
+   "PADDLE": {
+    "row": 5,
+    "col": 1,
+    "dir": "SE"
+   },
+   "DINGHY": {
+    "row": 12,
+    "col": 1,
+    "dir": "N"
+   },
+   "RUDDER": {
+    "row": 10,
+    "col": 14,
+    "dir": "N"
+   },
+   "WILLOW": {
+    "row": 8,
+    "col": 0,
+    "dir": "S"
+   },
+   "JETTY": {
+    "row": 1,
+    "col": 9,
+    "dir": "E"
+   },
+   "CANOE": {
+    "row": 2,
+    "col": 11,
+    "dir": "S"
+   },
+   "REEDS": {
+    "row": 11,
+    "col": 6,
+    "dir": "W"
+   },
+   "SCULL": {
+    "row": 14,
+    "col": 8,
+    "dir": "W"
+   },
+   "HERON": {
+    "row": 0,
+    "col": 0,
+    "dir": "SE"
+   },
+   "LOCK": {
+    "row": 2,
+    "col": 8,
+    "dir": "SW"
+   },
+   "RAFT": {
+    "row": 4,
+    "col": 8,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 7,
+  "clue": "PADLOCK",
+  "words": [
+   "BEETROOT",
+   "CABBAGE",
+   "COMPOST",
+   "CUCUMBER",
+   "FURROW",
+   "HOSEPIPE",
+   "LEEKS",
+   "MARROW",
+   "PARSNIP",
+   "POTATO",
+   "RHUBARB",
+   "SEEDLING",
+   "SHED",
+   "SPADE",
+   "WEEDS"
+  ],
+  "grid": [
+   "OPFURROWLRUGODL",
+   "YWPCAMSENHJTGEO",
+   "HTHISBEPOPAKPHZ",
+   "CKMDNKRSATAGESN",
+   "WUEOSSEAODUBVCT",
+   "FECRYPRPBMEETGA",
+   "WTNUIZAAKUHEMNS",
+   "QXFPMHLSPCHTGIV",
+   "LZETMBNHFAKRILM",
+   "PUFNLLEVNBROVDD",
+   "RZOBQTVRJBHOJEX",
+   "WMARROWEGAGTQEN",
+   "VVEXUSONVGOOASX",
+   "TSOPMOCXDERQYZH",
+   "OIDGYYDKCOLDAPW"
+  ],
+  "placed": {
+   "HOSEPIPE": {
+    "row": 1,
+    "col": 9,
+    "dir": "SW"
+   },
+   "CUCUMBER": {
+    "row": 3,
+    "col": 0,
+    "dir": "SE"
+   },
+   "SEEDLING": {
+    "row": 12,
+    "col": 13,
+    "dir": "N"
+   },
+   "BEETROOT": {
+    "row": 4,
+    "col": 11,
+    "dir": "S"
+   },
+   "COMPOST": {
+    "row": 13,
+    "col": 6,
+    "dir": "W"
+   },
+   "CABBAGE": {
+    "row": 7,
+    "col": 9,
+    "dir": "S"
+   },
+   "PARSNIP": {
+    "row": 7,
+    "col": 8,
+    "dir": "NW"
+   },
+   "RHUBARB": {
+    "row": 8,
+    "col": 11,
+    "dir": "NW"
+   },
+   "PADLOCK": {
+    "row": 14,
+    "col": 13,
+    "dir": "W"
+   },
+   "MARROW": {
+    "row": 11,
+    "col": 1,
+    "dir": "E"
+   },
+   "FURROW": {
+    "row": 0,
+    "col": 2,
+    "dir": "E"
+   },
+   "POTATO": {
+    "row": 5,
+    "col": 7,
+    "dir": "NE"
+   },
+   "SPADE": {
+    "row": 1,
+    "col": 6,
+    "dir": "SE"
+   },
+   "LEEKS": {
+    "row": 0,
+    "col": 8,
+    "dir": "SW"
+   },
+   "WEEDS": {
+    "row": 6,
+    "col": 0,
+    "dir": "NE"
+   },
+   "SHED": {
+    "row": 3,
+    "col": 13,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 8,
+  "clue": "RIBBON",
+  "words": [
+   "BANDSTAND",
+   "BUNTING",
+   "COCONUT",
+   "CUSTARD",
+   "FUDGE",
+   "HOOPLA",
+   "JUDGE",
+   "LEMONADE",
+   "MARQUEE",
+   "PRIZE",
+   "RAFFLE",
+   "SPONGE",
+   "TOMBOLA",
+   "TRESTLE",
+   "WINNER"
+  ],
+  "grid": [
+   "UOILPCJRGVTXNLR",
+   "XRKUJUAUORDMUTR",
+   "MKGIWFVMDNYAYLH",
+   "ACHJFOHVAGSEYNS",
+   "RXOLWOYTVEEDCGP",
+   "QLECOASGMRMADHO",
+   "UMAPODLQDULNJMN",
+   "EZLBNNEOIUAOKVG",
+   "EAVAEJULBZEMUCE",
+   "GGBAZMYTTMSECVE",
+   "RIBBONBXTSOLOZE",
+   "KHVDRATSUCETIDG",
+   "AETUHCTQYLPRMWD",
+   "YWINNERABUPOTPU",
+   "UMPFNXCGNITNUBF"
+  ],
+  "placed": {
+   "BANDSTAND": {
+    "row": 9,
+    "col": 2,
+    "dir": "NE"
+   },
+   "LEMONADE": {
+    "row": 10,
+    "col": 11,
+    "dir": "N"
+   },
+   "BUNTING": {
+    "row": 14,
+    "col": 13,
+    "dir": "W"
+   },
+   "TOMBOLA": {
+    "row": 11,
+    "col": 11,
+    "dir": "NW"
+   },
+   "COCONUT": {
+    "row": 3,
+    "col": 1,
+    "dir": "SE"
+   },
+   "MARQUEE": {
+    "row": 2,
+    "col": 0,
+    "dir": "S"
+   },
+   "TRESTLE": {
+    "row": 13,
+    "col": 12,
+    "dir": "NW"
+   },
+   "CUSTARD": {
+    "row": 11,
+    "col": 9,
+    "dir": "W"
+   },
+   "RAFFLE": {
+    "row": 0,
+    "col": 7,
+    "dir": "SW"
+   },
+   "SPONGE": {
+    "row": 3,
+    "col": 14,
+    "dir": "S"
+   },
+   "HOOPLA": {
+    "row": 3,
+    "col": 6,
+    "dir": "SW"
+   },
+   "WINNER": {
+    "row": 13,
+    "col": 1,
+    "dir": "E"
+   },
+   "RIBBON": {
+    "row": 10,
+    "col": 0,
+    "dir": "E"
+   },
+   "JUDGE": {
+    "row": 0,
+    "col": 6,
+    "dir": "SE"
+   },
+   "PRIZE": {
+    "row": 13,
+    "col": 10,
+    "dir": "NE"
+   },
+   "FUDGE": {
+    "row": 14,
+    "col": 14,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 9,
+  "clue": "INKWELL",
+  "words": [
+   "ARCHIVE",
+   "ATLAS",
+   "BOOKMARK",
+   "BORROW",
+   "CATALOGUE",
+   "CHAPTER",
+   "DICTIONARY",
+   "LIBRARIAN",
+   "NOVEL",
+   "OVERDUE",
+   "PAPERBACK",
+   "READER",
+   "REFERENCE",
+   "SHELF",
+   "SPINE"
+  ],
+  "grid": [
+   "TNNZPPAPERBACKA",
+   "WPMEUDREVONYDRI",
+   "CATALOGUEAVOYGU",
+   "LRJDCGURIPIEIRF",
+   "JEPFXHERLLEWKNI",
+   "EFKNGDAWXPYDMRT",
+   "AEHGARYPDZIJFKR",
+   "IRZEBEAPTCTFGRM",
+   "GERIMTVUTELLXAX",
+   "PNLGLRBIIJREIMB",
+   "KCEABVOSHVZHVKI",
+   "EESAQNRUPCTSJOJ",
+   "QQJIAQRFCIROWON",
+   "NFZRMXOGYINAPBO",
+   "TQYFVNWKKZVEQWY"
+  ],
+  "placed": {
+   "DICTIONARY": {
+    "row": 5,
+    "col": 11,
+    "dir": "SW"
+   },
+   "CATALOGUE": {
+    "row": 2,
+    "col": 0,
+    "dir": "E"
+   },
+   "LIBRARIAN": {
+    "row": 9,
+    "col": 2,
+    "dir": "NE"
+   },
+   "PAPERBACK": {
+    "row": 0,
+    "col": 5,
+    "dir": "E"
+   },
+   "REFERENCE": {
+    "row": 3,
+    "col": 1,
+    "dir": "S"
+   },
+   "BOOKMARK": {
+    "row": 13,
+    "col": 13,
+    "dir": "N"
+   },
+   "ARCHIVE": {
+    "row": 13,
+    "col": 11,
+    "dir": "NW"
+   },
+   "OVERDUE": {
+    "row": 1,
+    "col": 9,
+    "dir": "W"
+   },
+   "CHAPTER": {
+    "row": 3,
+    "col": 4,
+    "dir": "SE"
+   },
+   "INKWELL": {
+    "row": 4,
+    "col": 14,
+    "dir": "W"
+   },
+   "BORROW": {
+    "row": 9,
+    "col": 6,
+    "dir": "S"
+   },
+   "READER": {
+    "row": 8,
+    "col": 2,
+    "dir": "NE"
+   },
+   "SHELF": {
+    "row": 11,
+    "col": 11,
+    "dir": "N"
+   },
+   "NOVEL": {
+    "row": 12,
+    "col": 14,
+    "dir": "NW"
+   },
+   "ATLAS": {
+    "row": 7,
+    "col": 6,
+    "dir": "SW"
+   },
+   "SPINE": {
+    "row": 10,
+    "col": 7,
+    "dir": "SE"
+   }
+  }
+ },
+ {
+  "case": 10,
+  "clue": "TROWEL",
+  "words": [
+   "BLOSSOM",
+   "CACTUS",
+   "CUTTINGS",
+   "FERN",
+   "GERANIUM",
+   "HUMID",
+   "ORCHID",
+   "PETUNIA",
+   "POTTING",
+   "SEEDTRAY",
+   "TERRACOTTA",
+   "TOMATO",
+   "TRELLIS",
+   "VINE",
+   "WATERCAN"
+  ],
+  "grid": [
+   "GMFAMCAINUTEPEX",
+   "SOVCJMURRWMWTIC",
+   "OSOIDZPTMSMZTUE",
+   "PSDDMFDUTYDRQXW",
+   "OOGEEAIZJIEAPMY",
+   "TLKRNNTHHLNSLQA",
+   "TBNLAIITLUNGJDR",
+   "IWURITVIOOMCSNT",
+   "NKEHXYSNTCKIAWD",
+   "GGUSHTSUTCACDTE",
+   "ODYWEOXKZORRAAE",
+   "ZOIGVMAPWEGZRVS",
+   "UISWIAVCTNRWAES",
+   "ANBIZTPAORCHIDT",
+   "EGCIQOWKTROWELZ"
+  ],
+  "placed": {
+   "TERRACOTTA": {
+    "row": 13,
+    "col": 14,
+    "dir": "NW"
+   },
+   "GERANIUM": {
+    "row": 9,
+    "col": 1,
+    "dir": "NE"
+   },
+   "WATERCAN": {
+    "row": 14,
+    "col": 6,
+    "dir": "NE"
+   },
+   "CUTTINGS": {
+    "row": 0,
+    "col": 5,
+    "dir": "SE"
+   },
+   "SEEDTRAY": {
+    "row": 11,
+    "col": 14,
+    "dir": "N"
+   },
+   "PETUNIA": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   },
+   "POTTING": {
+    "row": 3,
+    "col": 0,
+    "dir": "S"
+   },
+   "TRELLIS": {
+    "row": 2,
+    "col": 12,
+    "dir": "SW"
+   },
+   "BLOSSOM": {
+    "row": 6,
+    "col": 1,
+    "dir": "N"
+   },
+   "TOMATO": {
+    "row": 9,
+    "col": 5,
+    "dir": "S"
+   },
+   "ORCHID": {
+    "row": 13,
+    "col": 8,
+    "dir": "E"
+   },
+   "CACTUS": {
+    "row": 9,
+    "col": 11,
+    "dir": "W"
+   },
+   "TROWEL": {
+    "row": 14,
+    "col": 8,
+    "dir": "E"
+   },
+   "HUMID": {
+    "row": 5,
+    "col": 8,
+    "dir": "SE"
+   },
+   "FERN": {
+    "row": 3,
+    "col": 5,
+    "dir": "SW"
+   },
+   "VINE": {
+    "row": 7,
+    "col": 6,
+    "dir": "NW"
+   }
+  }
+ },
+ {
+  "case": 11,
+  "clue": "IVORY",
+  "words": [
+   "APPLAUSE",
+   "ARPEGGIO",
+   "AUDIENCE",
+   "CONCERT",
+   "ENCORE",
+   "KEYBOARD",
+   "LULLABY",
+   "MELODY",
+   "METRONOME",
+   "PEDAL",
+   "PIANO",
+   "RECITAL",
+   "SONATA",
+   "STOOL",
+   "TUNER"
+  ],
+  "grid": [
+   "WYKBPBSBTMSJIAM",
+   "PCMETRONOMERDBP",
+   "JYDOLEMKDLELARJ",
+   "EQMCKHQRLAILUEK",
+   "WROWFGAONAIPDCF",
+   "TKOEUOAPEDALIIE",
+   "OUOCBGTPHPMRETV",
+   "ATNYNROMPJXRNAI",
+   "GTEEEEIYXLELCLL",
+   "CKACRDGRITASEUN",
+   "JJNNGQGOWLTULYU",
+   "FOPXOAEVEOPLSWA",
+   "CNDBHSPIOKAHDEV",
+   "JYJSXWRLZBDSBUM",
+   "JHASZDARYLMAWBU"
+  ],
+  "placed": {
+   "METRONOME": {
+    "row": 1,
+    "col": 2,
+    "dir": "E"
+   },
+   "KEYBOARD": {
+    "row": 9,
+    "col": 1,
+    "dir": "NE"
+   },
+   "AUDIENCE": {
+    "row": 2,
+    "col": 12,
+    "dir": "S"
+   },
+   "ARPEGGIO": {
+    "row": 14,
+    "col": 6,
+    "dir": "N"
+   },
+   "APPLAUSE": {
+    "row": 5,
+    "col": 6,
+    "dir": "SE"
+   },
+   "CONCERT": {
+    "row": 12,
+    "col": 0,
+    "dir": "NE"
+   },
+   "RECITAL": {
+    "row": 2,
+    "col": 13,
+    "dir": "S"
+   },
+   "LULLABY": {
+    "row": 8,
+    "col": 14,
+    "dir": "SW"
+   },
+   "SONATA": {
+    "row": 12,
+    "col": 5,
+    "dir": "NW"
+   },
+   "ENCORE": {
+    "row": 8,
+    "col": 5,
+    "dir": "NW"
+   },
+   "MELODY": {
+    "row": 2,
+    "col": 6,
+    "dir": "W"
+   },
+   "PIANO": {
+    "row": 4,
+    "col": 11,
+    "dir": "W"
+   },
+   "STOOL": {
+    "row": 9,
+    "col": 11,
+    "dir": "SW"
+   },
+   "PEDAL": {
+    "row": 5,
+    "col": 7,
+    "dir": "E"
+   },
+   "TUNER": {
+    "row": 5,
+    "col": 0,
+    "dir": "SE"
+   },
+   "IVORY": {
+    "row": 12,
+    "col": 7,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 12,
+  "clue": "SADDLE",
+  "words": [
+   "BLANKET",
+   "BRIDLE",
+   "FARRIER",
+   "GALLOP",
+   "GROOM",
+   "HAYLOFT",
+   "HOOF",
+   "MANE",
+   "OATS",
+   "PADDOCK",
+   "PONY",
+   "REINS",
+   "STALLION",
+   "STIRRUP",
+   "TROUGH"
+  ],
+  "grid": [
+   "MOORGTNRXUPMSUH",
+   "IPPFMHRCDQCGHTD",
+   "YAUAAVIODOATSIP",
+   "NYSRDSMKUPYSUTD",
+   "TSLRRDNUHGVTFBB",
+   "KGDIIIOIWPHFMLL",
+   "EJPEPZTCEXHOIFA",
+   "OBGRVEQSKRKLXON",
+   "DNOILLATSYFYDOK",
+   "VPGDPUGVNZNAXHE",
+   "ESIBQASOYPBHJBT",
+   "VRUHLTPTMUDHUCV",
+   "BTCLRYSADDLEPJO",
+   "OZOJBUNBVXQRDHY",
+   "CPQKZEUQWDUGQBD"
+  ],
+  "placed": {
+   "STALLION": {
+    "row": 8,
+    "col": 8,
+    "dir": "W"
+   },
+   "STIRRUP": {
+    "row": 7,
+    "col": 7,
+    "dir": "NW"
+   },
+   "HAYLOFT": {
+    "row": 10,
+    "col": 11,
+    "dir": "N"
+   },
+   "PADDOCK": {
+    "row": 1,
+    "col": 2,
+    "dir": "SE"
+   },
+   "FARRIER": {
+    "row": 1,
+    "col": 3,
+    "dir": "S"
+   },
+   "BLANKET": {
+    "row": 4,
+    "col": 14,
+    "dir": "S"
+   },
+   "BRIDLE": {
+    "row": 12,
+    "col": 0,
+    "dir": "NE"
+   },
+   "TROUGH": {
+    "row": 0,
+    "col": 5,
+    "dir": "SE"
+   },
+   "GALLOP": {
+    "row": 9,
+    "col": 6,
+    "dir": "SW"
+   },
+   "SADDLE": {
+    "row": 12,
+    "col": 6,
+    "dir": "E"
+   },
+   "GROOM": {
+    "row": 0,
+    "col": 4,
+    "dir": "W"
+   },
+   "REINS": {
+    "row": 7,
+    "col": 9,
+    "dir": "NW"
+   },
+   "PONY": {
+    "row": 11,
+    "col": 6,
+    "dir": "NE"
+   },
+   "MANE": {
+    "row": 11,
+    "col": 8,
+    "dir": "SW"
+   },
+   "HOOF": {
+    "row": 9,
+    "col": 13,
+    "dir": "N"
+   },
+   "OATS": {
+    "row": 2,
+    "col": 9,
+    "dir": "E"
+   }
+  }
+ },
+ {
+  "case": 13,
+  "clue": "TICKET",
+  "words": [
+   "BRAKE",
+   "BUFFER",
+   "CARRIAGE",
+   "EXPRESS",
+   "GUARD",
+   "LEVER",
+   "LUGGAGE",
+   "PLATFORM",
+   "PORTER",
+   "SIDING",
+   "SIGNAL",
+   "SLEEPER",
+   "STOKER",
+   "TERMINUS",
+   "TUNNEL"
+  ],
+  "grid": [
+   "BHQWWTZHPDVMRBR",
+   "EGAGGULJEARXPZW",
+   "RPORTERJVOURJBO",
+   "LJBRAKEKFCANCUW",
+   "DTJZIESTAFLRXFB",
+   "REVELIARHAREHFG",
+   "OYIIDLRRNBXPMEJ",
+   "KZTIPIEGONREQRV",
+   "VSNEAFINYAEEGGN",
+   "TGSGRSQUNMKLDMG",
+   "JIEETMFFYUOSOJU",
+   "HWCBRZIONQTUMYA",
+   "NYUKJPMNKBSNNOR",
+   "RJRVEZXHUWJMKGD",
+   "NGAGGTKETSQMBAX"
+  ],
+  "placed": {
+   "PLATFORM": {
+    "row": 7,
+    "col": 4,
+    "dir": "NE"
+   },
+   "CARRIAGE": {
+    "row": 3,
+    "col": 9,
+    "dir": "SW"
+   },
+   "TERMINUS": {
+    "row": 7,
+    "col": 2,
+    "dir": "SE"
+   },
+   "SLEEPER": {
+    "row": 10,
+    "col": 11,
+    "dir": "N"
+   },
+   "LUGGAGE": {
+    "row": 1,
+    "col": 6,
+    "dir": "W"
+   },
+   "EXPRESS": {
+    "row": 14,
+    "col": 7,
+    "dir": "NW"
+   },
+   "SIGNAL": {
+    "row": 9,
+    "col": 5,
+    "dir": "NE"
+   },
+   "BUFFER": {
+    "row": 2,
+    "col": 13,
+    "dir": "S"
+   },
+   "TUNNEL": {
+    "row": 11,
+    "col": 10,
+    "dir": "NW"
+   },
+   "STOKER": {
+    "row": 12,
+    "col": 10,
+    "dir": "N"
+   },
+   "PORTER": {
+    "row": 2,
+    "col": 1,
+    "dir": "E"
+   },
+   "SIDING": {
+    "row": 4,
+    "col": 6,
+    "dir": "SW"
+   },
+   "TICKET": {
+    "row": 9,
+    "col": 0,
+    "dir": "SE"
+   },
+   "GUARD": {
+    "row": 9,
+    "col": 14,
+    "dir": "S"
+   },
+   "LEVER": {
+    "row": 5,
+    "col": 4,
+    "dir": "W"
+   },
+   "BRAKE": {
+    "row": 3,
+    "col": 2,
+    "dir": "E"
+   }
+  }
+ },
+ {
+  "case": 14,
+  "clue": "OVERCOAT",
+  "words": [
+   "BASKET",
+   "BONNET",
+   "BROLLY",
+   "BUTTON",
+   "CORRIDOR",
+   "CURTAIN",
+   "GLOVES",
+   "HANGER",
+   "HATSTAND",
+   "LABEL",
+   "LINING",
+   "MUFFLER",
+   "POCKET",
+   "SCARF",
+   "SHAWL"
+  ],
+  "grid": [
+   "ROMPPPNIATRUCSJ",
+   "VTENNOBUOJELPTB",
+   "XIPXAAHUEXDKIJJ",
+   "NXGKWTXMPWDKCJE",
+   "LOPCZJUCBMSCLOC",
+   "BGOVERCOATOJCOP",
+   "RTQAKOSASSAURRZ",
+   "OBNYAAMDKRAREBD",
+   "LRBGIWNUEMIGRJG",
+   "LVEULAKWTDNRQYN",
+   "YLCLTOZIOAUDSZI",
+   "TEASFTVRHQRHDKN",
+   "DBTWWFOEJUAFPYI",
+   "ZABYQWUNSWIZVFL",
+   "HLYVGFGMLDSCARF"
+  ],
+  "placed": {
+   "HATSTAND": {
+    "row": 14,
+    "col": 0,
+    "dir": "NE"
+   },
+   "CORRIDOR": {
+    "row": 4,
+    "col": 14,
+    "dir": "SW"
+   },
+   "OVERCOAT": {
+    "row": 5,
+    "col": 2,
+    "dir": "E"
+   },
+   "MUFFLER": {
+    "row": 14,
+    "col": 7,
+    "dir": "NW"
+   },
+   "CURTAIN": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   },
+   "HANGER": {
+    "row": 11,
+    "col": 8,
+    "dir": "NE"
+   },
+   "GLOVES": {
+    "row": 8,
+    "col": 3,
+    "dir": "SE"
+   },
+   "BONNET": {
+    "row": 1,
+    "col": 6,
+    "dir": "W"
+   },
+   "BASKET": {
+    "row": 4,
+    "col": 8,
+    "dir": "S"
+   },
+   "BROLLY": {
+    "row": 5,
+    "col": 0,
+    "dir": "S"
+   },
+   "LINING": {
+    "row": 13,
+    "col": 14,
+    "dir": "N"
+   },
+   "POCKET": {
+    "row": 5,
+    "col": 14,
+    "dir": "NW"
+   },
+   "BUTTON": {
+    "row": 8,
+    "col": 2,
+    "dir": "SE"
+   },
+   "SCARF": {
+    "row": 14,
+    "col": 10,
+    "dir": "E"
+   },
+   "LABEL": {
+    "row": 14,
+    "col": 1,
+    "dir": "N"
+   },
+   "SHAWL": {
+    "row": 10,
+    "col": 12,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 15,
+  "clue": "BELLROPE",
+  "words": [
+   "BELFRY",
+   "CHIME",
+   "CLAPPER",
+   "CLOCKFACE",
+   "GALLERY",
+   "GARGOYLE",
+   "LADDER",
+   "PEAL",
+   "PIGEON",
+   "RINGER",
+   "SPIRAL",
+   "STEEPLE",
+   "TOLL",
+   "TOWER",
+   "WEATHERVANE"
+  ],
+  "grid": [
+   "EAMJZLARIPSYMMG",
+   "PQSKIOCYCEQRPWA",
+   "OWCHIMELCWYFIRR",
+   "RNEOFTPAAROLWYG",
+   "LVPNOAFZIPGEJXO",
+   "LPULAKMNQMPBRFY",
+   "ELLXCVGSEGHEHHL",
+   "BJAOEERTWPEVRFE",
+   "RVLERYAERTICWPJ",
+   "RCYUPGIEHFRGFJO",
+   "EZXKHODPNTCDEBD",
+   "CCTCQDSLSPAGKOP",
+   "KMHWAETEGZXELON",
+   "XGALLERYZVVKWMW",
+   "REWOTCIBLWCCBXI"
+  ],
+  "placed": {
+   "WEATHERVANE": {
+    "row": 13,
+    "col": 12,
+    "dir": "NW"
+   },
+   "CLOCKFACE": {
+    "row": 9,
+    "col": 1,
+    "dir": "NE"
+   },
+   "GARGOYLE": {
+    "row": 0,
+    "col": 14,
+    "dir": "S"
+   },
+   "BELLROPE": {
+    "row": 7,
+    "col": 0,
+    "dir": "N"
+   },
+   "STEEPLE": {
+    "row": 6,
+    "col": 7,
+    "dir": "S"
+   },
+   "CLAPPER": {
+    "row": 1,
+    "col": 6,
+    "dir": "SE"
+   },
+   "GALLERY": {
+    "row": 13,
+    "col": 1,
+    "dir": "E"
+   },
+   "BELFRY": {
+    "row": 5,
+    "col": 11,
+    "dir": "N"
+   },
+   "PIGEON": {
+    "row": 7,
+    "col": 9,
+    "dir": "SE"
+   },
+   "LADDER": {
+    "row": 13,
+    "col": 3,
+    "dir": "NE"
+   },
+   "RINGER": {
+    "row": 3,
+    "col": 9,
+    "dir": "SW"
+   },
+   "SPIRAL": {
+    "row": 0,
+    "col": 10,
+    "dir": "W"
+   },
+   "CHIME": {
+    "row": 2,
+    "col": 2,
+    "dir": "E"
+   },
+   "TOWER": {
+    "row": 14,
+    "col": 4,
+    "dir": "W"
+   },
+   "PEAL": {
+    "row": 9,
+    "col": 4,
+    "dir": "NW"
+   },
+   "TOLL": {
+    "row": 3,
+    "col": 5,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 16,
+  "clue": "INVOICE",
+  "words": [
+   "AUCTION",
+   "BROOCH",
+   "CABINET",
+   "CANDELABRA",
+   "CHANDELIER",
+   "CURIO",
+   "GRAMOPHONE",
+   "MAHOGANY",
+   "MIRROR",
+   "PEWTER",
+   "PORCELAIN",
+   "SNUFFBOX",
+   "TRINKET",
+   "VASE",
+   "VELVET"
+  ],
+  "grid": [
+   "GREYNLNEWOBHEGE",
+   "XUGSFAWMIRRORAD",
+   "CWFFADVRJRGUYAC",
+   "ASEVEVUDMGUOIMA",
+   "NNOITCUAGIFLDGI",
+   "DUGCGRAMOPHONEP",
+   "EFPXHBILVYCIROU",
+   "LFGTDAYYNCNPRHP",
+   "ABVUEQNAEVOCWCV",
+   "BOZEBKGDOFETWOR",
+   "RXYHLONIELOOYOE",
+   "ARXHHVCIALSMTRT",
+   "VFMACEEIRXILWBW",
+   "HHMBBZNTZTTECAE",
+   "LETENIBACFQHRNP"
+  ],
+  "placed": {
+   "CHANDELIER": {
+    "row": 5,
+    "col": 3,
+    "dir": "SE"
+   },
+   "GRAMOPHONE": {
+    "row": 5,
+    "col": 4,
+    "dir": "E"
+   },
+   "CANDELABRA": {
+    "row": 2,
+    "col": 0,
+    "dir": "S"
+   },
+   "PORCELAIN": {
+    "row": 5,
+    "col": 14,
+    "dir": "SW"
+   },
+   "MAHOGANY": {
+    "row": 13,
+    "col": 2,
+    "dir": "NE"
+   },
+   "SNUFFBOX": {
+    "row": 3,
+    "col": 1,
+    "dir": "S"
+   },
+   "CABINET": {
+    "row": 14,
+    "col": 8,
+    "dir": "W"
+   },
+   "TRINKET": {
+    "row": 13,
+    "col": 9,
+    "dir": "NW"
+   },
+   "AUCTION": {
+    "row": 4,
+    "col": 7,
+    "dir": "W"
+   },
+   "INVOICE": {
+    "row": 6,
+    "col": 11,
+    "dir": "SW"
+   },
+   "VELVET": {
+    "row": 8,
+    "col": 2,
+    "dir": "SE"
+   },
+   "BROOCH": {
+    "row": 12,
+    "col": 13,
+    "dir": "N"
+   },
+   "PEWTER": {
+    "row": 14,
+    "col": 14,
+    "dir": "N"
+   },
+   "MIRROR": {
+    "row": 1,
+    "col": 7,
+    "dir": "E"
+   },
+   "CURIO": {
+    "row": 4,
+    "col": 5,
+    "dir": "NE"
+   },
+   "VASE": {
+    "row": 3,
+    "col": 5,
+    "dir": "NW"
+   }
+  }
+ },
+ {
+  "case": 17,
+  "clue": "APRON",
+  "words": [
+   "BAGUETTE",
+   "BATCH",
+   "BRIOCHE",
+   "CROISSANT",
+   "CRUST",
+   "DOUGH",
+   "FLOUR",
+   "GLAZE",
+   "KNEAD",
+   "LOAF",
+   "OVEN",
+   "PASTRY",
+   "TART",
+   "WHISK",
+   "YEAST"
+  ],
+  "grid": [
+   "XBLZMEEZWLMFAOL",
+   "NQWIUPQBYMTWTYK",
+   "BATCHFRUOLFNIRS",
+   "TWSLVXLAZSARIFJ",
+   "IJZXGGXEFSCRUST",
+   "HTYTHLPRSAWESOC",
+   "GMGESWAIDUXGEQS",
+   "UFBOWAOZWDLBJDX",
+   "OORWFREKEGAUNAP",
+   "DNIMCOSYFGDEPTA",
+   "SYOEUIVYUGNRNHS",
+   "TNCBHXNEEJOITKT",
+   "RUHWFETFNNMBUHR",
+   "ABEXJTFMUKHYETY",
+   "TDCOEUCJNUMNVWE"
+  ],
+  "placed": {
+   "CROISSANT": {
+    "row": 9,
+    "col": 4,
+    "dir": "NE"
+   },
+   "BAGUETTE": {
+    "row": 7,
+    "col": 11,
+    "dir": "SW"
+   },
+   "BRIOCHE": {
+    "row": 7,
+    "col": 2,
+    "dir": "S"
+   },
+   "PASTRY": {
+    "row": 8,
+    "col": 14,
+    "dir": "S"
+   },
+   "DOUGH": {
+    "row": 9,
+    "col": 0,
+    "dir": "N"
+   },
+   "CRUST": {
+    "row": 4,
+    "col": 10,
+    "dir": "E"
+   },
+   "YEAST": {
+    "row": 9,
+    "col": 7,
+    "dir": "NW"
+   },
+   "FLOUR": {
+    "row": 2,
+    "col": 10,
+    "dir": "W"
+   },
+   "WHISK": {
+    "row": 12,
+    "col": 3,
+    "dir": "NE"
+   },
+   "KNEAD": {
+    "row": 11,
+    "col": 13,
+    "dir": "NW"
+   },
+   "GLAZE": {
+    "row": 4,
+    "col": 4,
+    "dir": "SE"
+   },
+   "BATCH": {
+    "row": 2,
+    "col": 0,
+    "dir": "E"
+   },
+   "APRON": {
+    "row": 8,
+    "col": 13,
+    "dir": "SW"
+   },
+   "LOAF": {
+    "row": 0,
+    "col": 14,
+    "dir": "W"
+   },
+   "OVEN": {
+    "row": 9,
+    "col": 5,
+    "dir": "SE"
+   },
+   "TART": {
+    "row": 14,
+    "col": 0,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 18,
+  "clue": "SCARECROW",
+  "words": [
+   "BARLEY",
+   "FENCE",
+   "HARVEST",
+   "HAYSTACK",
+   "HEDGEROW",
+   "MAGPIE",
+   "MEADOW",
+   "PASTURE",
+   "PLOUGH",
+   "SCYTHE",
+   "SILO",
+   "STILE",
+   "STRAW",
+   "TRACTOR",
+   "WHEAT"
+  ],
+  "grid": [
+   "OOPXNXBTAEHWFOO",
+   "JGAWHMQRWDPPHSU",
+   "RXSILAOOJLUAXCP",
+   "RITEIWDGOEYIEYU",
+   "EYUVHAOURSLICTI",
+   "ZURAEEGRTOBINHR",
+   "IZEMEHDACXTZEEN",
+   "ESSLYWCGUEBCFRK",
+   "IXXMAKCBERRCAXI",
+   "PUBRWVKCARTAFRM",
+   "GSTILEHWQROGCUT",
+   "ASGJSYCXJYLWWSH",
+   "MHARVESTUFHEORS",
+   "LMOREFGEZWEQYFG",
+   "DTCOLISNDMOWXMY"
+  ],
+  "placed": {
+   "SCARECROW": {
+    "row": 11,
+    "col": 13,
+    "dir": "NW"
+   },
+   "HAYSTACK": {
+    "row": 1,
+    "col": 12,
+    "dir": "SW"
+   },
+   "HEDGEROW": {
+    "row": 4,
+    "col": 4,
+    "dir": "SE"
+   },
+   "HARVEST": {
+    "row": 12,
+    "col": 1,
+    "dir": "E"
+   },
+   "TRACTOR": {
+    "row": 10,
+    "col": 14,
+    "dir": "NW"
+   },
+   "PASTURE": {
+    "row": 0,
+    "col": 2,
+    "dir": "S"
+   },
+   "BARLEY": {
+    "row": 8,
+    "col": 7,
+    "dir": "SE"
+   },
+   "SCYTHE": {
+    "row": 1,
+    "col": 13,
+    "dir": "S"
+   },
+   "PLOUGH": {
+    "row": 1,
+    "col": 10,
+    "dir": "SW"
+   },
+   "MEADOW": {
+    "row": 6,
+    "col": 3,
+    "dir": "NE"
+   },
+   "MAGPIE": {
+    "row": 12,
+    "col": 0,
+    "dir": "N"
+   },
+   "STRAW": {
+    "row": 11,
+    "col": 1,
+    "dir": "NE"
+   },
+   "WHEAT": {
+    "row": 0,
+    "col": 11,
+    "dir": "W"
+   },
+   "FENCE": {
+    "row": 7,
+    "col": 12,
+    "dir": "N"
+   },
+   "STILE": {
+    "row": 10,
+    "col": 1,
+    "dir": "E"
+   },
+   "SILO": {
+    "row": 14,
+    "col": 6,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 19,
+  "clue": "FEATHER",
+  "words": [
+   "BANTAM",
+   "BEAK",
+   "CHICKEN",
+   "CLUTCH",
+   "COOP",
+   "DUCKLING",
+   "FEEDER",
+   "GOOSE",
+   "GRAIN",
+   "HATCH",
+   "NESTING",
+   "PERCH",
+   "PLUMAGE",
+   "ROOSTER",
+   "TURKEY"
+  ],
+  "grid": [
+   "SWIFYXJUEGAMULP",
+   "UMRSEARRRNLFDMK",
+   "ZGURXEYXEOGAONT",
+   "PJOCEODKUYOWABY",
+   "ZGZOLHCEEDVSAUC",
+   "UNFOBITSRXANTLX",
+   "LIXPHCOAGATEUEW",
+   "KTYCLOTWEAHTELR",
+   "SSEMGQKFMFCCQHW",
+   "GEKNPPERCHOATXD",
+   "GNRNXYHSVVNGGAC",
+   "KWUDUCKLINGYRUH",
+   "PPTAKJCOHUKKAIH",
+   "XYMBSKAEBGLNIDN",
+   "NLSQJKPSQFMINCY"
+  ],
+  "placed": {
+   "DUCKLING": {
+    "row": 11,
+    "col": 3,
+    "dir": "E"
+   },
+   "ROOSTER": {
+    "row": 1,
+    "col": 8,
+    "dir": "SE"
+   },
+   "NESTING": {
+    "row": 10,
+    "col": 1,
+    "dir": "N"
+   },
+   "PLUMAGE": {
+    "row": 0,
+    "col": 14,
+    "dir": "W"
+   },
+   "CHICKEN": {
+    "row": 7,
+    "col": 3,
+    "dir": "NE"
+   },
+   "FEATHER": {
+    "row": 8,
+    "col": 9,
+    "dir": "NW"
+   },
+   "BANTAM": {
+    "row": 3,
+    "col": 13,
+    "dir": "SW"
+   },
+   "FEEDER": {
+    "row": 0,
+    "col": 3,
+    "dir": "SE"
+   },
+   "CLUTCH": {
+    "row": 4,
+    "col": 14,
+    "dir": "SW"
+   },
+   "TURKEY": {
+    "row": 12,
+    "col": 2,
+    "dir": "N"
+   },
+   "PERCH": {
+    "row": 9,
+    "col": 5,
+    "dir": "E"
+   },
+   "HATCH": {
+    "row": 11,
+    "col": 14,
+    "dir": "NW"
+   },
+   "GOOSE": {
+    "row": 8,
+    "col": 4,
+    "dir": "NE"
+   },
+   "GRAIN": {
+    "row": 10,
+    "col": 12,
+    "dir": "S"
+   },
+   "COOP": {
+    "row": 3,
+    "col": 3,
+    "dir": "S"
+   },
+   "BEAK": {
+    "row": 13,
+    "col": 8,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 20,
+  "clue": "EASEL",
+  "words": [
+   "BRUSH",
+   "CANVAS",
+   "FRAME",
+   "LANDSCAPE",
+   "MODEL",
+   "MURAL",
+   "PALETTE",
+   "PIGMENT",
+   "PORTRAIT",
+   "SCENERY",
+   "SKETCH",
+   "SMOCK",
+   "STUDIO",
+   "TURPENTINE",
+   "VARNISH"
+  ],
+  "grid": [
+   "IRABYQUDJELHEUN",
+   "LCNRESYOOBGLMNB",
+   "UGEUOEAHSINRAVL",
+   "MMJSTXCVJNDYRPG",
+   "GIOHRENZNDSUFTK",
+   "LANDSCAPEAVRTES",
+   "CROOEFFSEICANSK",
+   "CWEHWLCTEZRISCE",
+   "TNEMGIPPDLTCITT",
+   "PORTRAITRNECTMC",
+   "ORJQSOYNENUELLH",
+   "VHZMOQOPEQLAADV",
+   "JTOTKFRRBAWDRJA",
+   "QCVSHUYIPTPBUXM",
+   "KBNKTMOKRHEEMPJ"
+  ],
+  "placed": {
+   "TURPENTINE": {
+    "row": 14,
+    "col": 4,
+    "dir": "NE"
+   },
+   "LANDSCAPE": {
+    "row": 5,
+    "col": 0,
+    "dir": "E"
+   },
+   "PORTRAIT": {
+    "row": 9,
+    "col": 0,
+    "dir": "E"
+   },
+   "PALETTE": {
+    "row": 13,
+    "col": 8,
+    "dir": "NE"
+   },
+   "PIGMENT": {
+    "row": 8,
+    "col": 6,
+    "dir": "W"
+   },
+   "VARNISH": {
+    "row": 2,
+    "col": 13,
+    "dir": "W"
+   },
+   "SCENERY": {
+    "row": 7,
+    "col": 12,
+    "dir": "SW"
+   },
+   "CANVAS": {
+    "row": 6,
+    "col": 10,
+    "dir": "NW"
+   },
+   "SKETCH": {
+    "row": 5,
+    "col": 14,
+    "dir": "S"
+   },
+   "STUDIO": {
+    "row": 6,
+    "col": 13,
+    "dir": "NW"
+   },
+   "BRUSH": {
+    "row": 0,
+    "col": 3,
+    "dir": "S"
+   },
+   "MODEL": {
+    "row": 3,
+    "col": 1,
+    "dir": "SE"
+   },
+   "FRAME": {
+    "row": 4,
+    "col": 12,
+    "dir": "N"
+   },
+   "SMOCK": {
+    "row": 10,
+    "col": 4,
+    "dir": "SW"
+   },
+   "MURAL": {
+    "row": 14,
+    "col": 12,
+    "dir": "N"
+   },
+   "EASEL": {
+    "row": 4,
+    "col": 5,
+    "dir": "SE"
+   }
+  }
+ },
+ {
+  "case": 21,
+  "clue": "NECKLACE",
+  "words": [
+   "BUTLER",
+   "CHEQUE",
+   "COMBINATION",
+   "DECANTER",
+   "DIAMOND",
+   "ESTATE",
+   "FIREPLACE",
+   "GLOBE",
+   "HEIRLOOM",
+   "MANTEL",
+   "PEARL",
+   "RUBY",
+   "SAPPHIRE",
+   "STUDY",
+   "TASSEL"
+  ],
+  "grid": [
+   "DEIEICBCYYBURGP",
+   "MTMYGORBEXLTMPG",
+   "JAOILMFNECKLACE",
+   "PTMRFBMDIAMONDC",
+   "VSAEVIZOVGGISUB",
+   "FEBTCNPROLRFJPW",
+   "PHHNEAZTOLBFXDC",
+   "KXSEDTLBAXRRAHE",
+   "WPAPLIEPSSEIEDO",
+   "WJPQEOFEETSQEYQ",
+   "KCPOTNTQNRUENHK",
+   "RWHVNTPAOEIDLLX",
+   "QDIZAOCSDAMFYVT",
+   "JXRJMERELTUBNGE",
+   "IKEKDTWPFQRMPLO"
+  ],
+  "placed": {
+   "COMBINATION": {
+    "row": 0,
+    "col": 5,
+    "dir": "S"
+   },
+   "FIREPLACE": {
+    "row": 12,
+    "col": 11,
+    "dir": "NW"
+   },
+   "HEIRLOOM": {
+    "row": 10,
+    "col": 13,
+    "dir": "NW"
+   },
+   "DECANTER": {
+    "row": 14,
+    "col": 4,
+    "dir": "NE"
+   },
+   "SAPPHIRE": {
+    "row": 7,
+    "col": 2,
+    "dir": "S"
+   },
+   "NECKLACE": {
+    "row": 2,
+    "col": 7,
+    "dir": "E"
+   },
+   "DIAMOND": {
+    "row": 3,
+    "col": 7,
+    "dir": "E"
+   },
+   "TASSEL": {
+    "row": 6,
+    "col": 7,
+    "dir": "SE"
+   },
+   "MANTEL": {
+    "row": 13,
+    "col": 4,
+    "dir": "N"
+   },
+   "BUTLER": {
+    "row": 13,
+    "col": 11,
+    "dir": "W"
+   },
+   "CHEQUE": {
+    "row": 6,
+    "col": 14,
+    "dir": "SW"
+   },
+   "ESTATE": {
+    "row": 5,
+    "col": 1,
+    "dir": "N"
+   },
+   "STUDY": {
+    "row": 8,
+    "col": 8,
+    "dir": "SE"
+   },
+   "PEARL": {
+    "row": 6,
+    "col": 0,
+    "dir": "NE"
+   },
+   "GLOBE": {
+    "row": 4,
+    "col": 10,
+    "dir": "SW"
+   },
+   "RUBY": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 22,
+  "clue": "NUTMEG",
+  "words": [
+   "AWNING",
+   "BARGAIN",
+   "BARROW",
+   "CHEESE",
+   "CINNAMON",
+   "CLOVES",
+   "GINGER",
+   "HAGGLE",
+   "HONEY",
+   "PEPPER",
+   "PICKLE",
+   "SAFFRON",
+   "SAUSAGE",
+   "STALL",
+   "TRADER"
+  ],
+  "grid": [
+   "BZMSYKSTSHXOKJJ",
+   "AYMAPGWSOBTSCFS",
+   "RQVERCNNAASIBEE",
+   "RNIPIKEHUUNOVRL",
+   "OIIUEYCVJNSOCLK",
+   "WAREPPEPAHLALIC",
+   "HGPTRIXMECAAGSI",
+   "FRKOQGOOLSTGTEP",
+   "CAAZLNBUUSEOGHW",
+   "SBWJTPIVHLOEZLQ",
+   "ZFNGEMTUNKBRHXE",
+   "GTIGMRSAFFRONCF",
+   "PLNREDARTCQLQGQ",
+   "YIGINGERFJABSDH",
+   "FSPQXQQWWAHYMGG"
+  ],
+  "placed": {
+   "CINNAMON": {
+    "row": 1,
+    "col": 12,
+    "dir": "SW"
+   },
+   "SAUSAGE": {
+    "row": 1,
+    "col": 7,
+    "dir": "SE"
+   },
+   "SAFFRON": {
+    "row": 11,
+    "col": 6,
+    "dir": "E"
+   },
+   "BARGAIN": {
+    "row": 9,
+    "col": 1,
+    "dir": "N"
+   },
+   "BARROW": {
+    "row": 0,
+    "col": 0,
+    "dir": "S"
+   },
+   "CHEESE": {
+    "row": 11,
+    "col": 13,
+    "dir": "NW"
+   },
+   "PICKLE": {
+    "row": 7,
+    "col": 14,
+    "dir": "N"
+   },
+   "TRADER": {
+    "row": 12,
+    "col": 8,
+    "dir": "W"
+   },
+   "GINGER": {
+    "row": 13,
+    "col": 2,
+    "dir": "E"
+   },
+   "PEPPER": {
+    "row": 5,
+    "col": 7,
+    "dir": "W"
+   },
+   "CLOVES": {
+    "row": 6,
+    "col": 9,
+    "dir": "NE"
+   },
+   "HAGGLE": {
+    "row": 5,
+    "col": 9,
+    "dir": "SE"
+   },
+   "AWNING": {
+    "row": 8,
+    "col": 2,
+    "dir": "S"
+   },
+   "NUTMEG": {
+    "row": 10,
+    "col": 8,
+    "dir": "W"
+   },
+   "STALL": {
+    "row": 8,
+    "col": 9,
+    "dir": "NE"
+   },
+   "HONEY": {
+    "row": 0,
+    "col": 9,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 23,
+  "clue": "TOFFEE",
+  "words": [
+   "BONBON",
+   "CARAMEL",
+   "GOBSTOPPER",
+   "HUMBUG",
+   "JELLY",
+   "LIQUORICE",
+   "LOLLIPOP",
+   "MARSHMALLOW",
+   "NOUGAT",
+   "PEPPERMINT",
+   "SHERBET",
+   "SWEETS",
+   "TREACLE",
+   "TRUFFLE",
+   "WRAPPER"
+  ],
+  "grid": [
+   "TCBAUWIPVLACWAW",
+   "FGGEQPOPILLOLHK",
+   "BXOIEPDUFSWEETS",
+   "ERIBREUNOBNOBYW",
+   "MECASCARAMELPLG",
+   "APFIWTJZYWTASLX",
+   "RPYFGJOLBNSESEF",
+   "SABSONVPIUCRHJE",
+   "HRTAWTMMPIJNETZ",
+   "MWRRICRGREOJRTG",
+   "ABPLUEUOUUREBJG",
+   "LLNOPFUTGBAKEJG",
+   "LQWPIQFAUCMPTJH",
+   "OPEWITTLLVMUANA",
+   "WPELITOEEXVLHJT"
+  ],
+  "placed": {
+   "MARSHMALLOW": {
+    "row": 4,
+    "col": 0,
+    "dir": "S"
+   },
+   "GOBSTOPPER": {
+    "row": 1,
+    "col": 1,
+    "dir": "SE"
+   },
+   "PEPPERMINT": {
+    "row": 14,
+    "col": 1,
+    "dir": "NE"
+   },
+   "LIQUORICE": {
+    "row": 14,
+    "col": 3,
+    "dir": "NE"
+   },
+   "LOLLIPOP": {
+    "row": 1,
+    "col": 12,
+    "dir": "W"
+   },
+   "SHERBET": {
+    "row": 6,
+    "col": 12,
+    "dir": "S"
+   },
+   "CARAMEL": {
+    "row": 4,
+    "col": 5,
+    "dir": "E"
+   },
+   "TREACLE": {
+    "row": 8,
+    "col": 13,
+    "dir": "SW"
+   },
+   "WRAPPER": {
+    "row": 9,
+    "col": 1,
+    "dir": "N"
+   },
+   "TRUFFLE": {
+    "row": 8,
+    "col": 2,
+    "dir": "SE"
+   },
+   "HUMBUG": {
+    "row": 14,
+    "col": 12,
+    "dir": "NW"
+   },
+   "NOUGAT": {
+    "row": 8,
+    "col": 11,
+    "dir": "SW"
+   },
+   "SWEETS": {
+    "row": 2,
+    "col": 9,
+    "dir": "E"
+   },
+   "BONBON": {
+    "row": 3,
+    "col": 12,
+    "dir": "W"
+   },
+   "TOFFEE": {
+    "row": 8,
+    "col": 5,
+    "dir": "NW"
+   },
+   "JELLY": {
+    "row": 7,
+    "col": 13,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 24,
+  "clue": "HAMPER",
+  "words": [
+   "BUTTERFLY",
+   "CLOVER",
+   "CRISPS",
+   "DAISY",
+   "DRAGONFLY",
+   "FLASK",
+   "GRASS",
+   "NAPKIN",
+   "PASTY",
+   "PICNIC",
+   "SALAD",
+   "SANDWICH",
+   "STREAM",
+   "SUNHAT",
+   "WEIR"
+  ],
+  "grid": [
+   "RCDZGOPQPKMEEOM",
+   "UBVZDAEICPPDUAR",
+   "PDSSSRCZAFNOEKI",
+   "SJBTPNASAJIRZKE",
+   "MHYTISIGDATMSFW",
+   "FGVCLYIYOSWKRLQ",
+   "ILXYXULRCNOQFAG",
+   "ZGOXPFBFCLFQPSR",
+   "UTHOLHAHRROLYKA",
+   "MANAPKINEEMVYIS",
+   "IHCPXYQPRATHETS",
+   "LNYJLJMOCNTTCRM",
+   "PUVWFAKDSFMCUVE",
+   "HSHQHSANDWICHBQ",
+   "BDALASWPTYSIADA"
+  ],
+  "placed": {
+   "BUTTERFLY": {
+    "row": 13,
+    "col": 13,
+    "dir": "NW"
+   },
+   "DRAGONFLY": {
+    "row": 1,
+    "col": 4,
+    "dir": "SE"
+   },
+   "SANDWICH": {
+    "row": 13,
+    "col": 5,
+    "dir": "E"
+   },
+   "PICNIC": {
+    "row": 0,
+    "col": 8,
+    "dir": "SW"
+   },
+   "SUNHAT": {
+    "row": 13,
+    "col": 1,
+    "dir": "N"
+   },
+   "CRISPS": {
+    "row": 7,
+    "col": 8,
+    "dir": "NW"
+   },
+   "STREAM": {
+    "row": 5,
+    "col": 9,
+    "dir": "NE"
+   },
+   "CLOVER": {
+    "row": 6,
+    "col": 8,
+    "dir": "SE"
+   },
+   "NAPKIN": {
+    "row": 9,
+    "col": 2,
+    "dir": "E"
+   },
+   "HAMPER": {
+    "row": 13,
+    "col": 4,
+    "dir": "NE"
+   },
+   "FLASK": {
+    "row": 4,
+    "col": 13,
+    "dir": "S"
+   },
+   "GRASS": {
+    "row": 6,
+    "col": 14,
+    "dir": "S"
+   },
+   "DAISY": {
+    "row": 14,
+    "col": 13,
+    "dir": "W"
+   },
+   "PASTY": {
+    "row": 0,
+    "col": 6,
+    "dir": "SW"
+   },
+   "SALAD": {
+    "row": 14,
+    "col": 5,
+    "dir": "W"
+   },
+   "WEIR": {
+    "row": 4,
+    "col": 14,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 25,
+  "clue": "ENGINE",
+  "words": [
+   "ALARM",
+   "BADGE",
+   "BLAZE",
+   "BRIGADE",
+   "CAPTAIN",
+   "DRILL",
+   "HELMET",
+   "HOSE",
+   "HYDRANT",
+   "PUMP",
+   "RESCUE",
+   "SIREN",
+   "SMOKE",
+   "SOOT",
+   "SPRINKLER"
+  ],
+  "grid": [
+   "DZAAPPDFVUITOOS",
+   "EQSDMZSWTAPBEVL",
+   "QVGULKKRGLERVQL",
+   "KRPBLAZEVAJIXWG",
+   "AETNARDYHRJGIME",
+   "YLGOIHUWEMPAPDB",
+   "YKTHJOWUSSWDCBE",
+   "ANIEPHCOIRXELNN",
+   "MIXUMSGRUNIJGTX",
+   "SRFQELEWHPPIJHP",
+   "LPNRHNEKNBNKZZD",
+   "LSWFQOGHOEARHJS",
+   "IRRNTFSTCMZDJCN",
+   "RAEDITDEYPSZGAZ",
+   "DBDVLCAPTAINZEP"
+  ],
+  "placed": {
+   "SPRINKLER": {
+    "row": 11,
+    "col": 1,
+    "dir": "N"
+   },
+   "HYDRANT": {
+    "row": 4,
+    "col": 8,
+    "dir": "W"
+   },
+   "BRIGADE": {
+    "row": 1,
+    "col": 11,
+    "dir": "S"
+   },
+   "CAPTAIN": {
+    "row": 14,
+    "col": 5,
+    "dir": "E"
+   },
+   "HELMET": {
+    "row": 11,
+    "col": 7,
+    "dir": "NW"
+   },
+   "RESCUE": {
+    "row": 10,
+    "col": 3,
+    "dir": "NE"
+   },
+   "ENGINE": {
+    "row": 6,
+    "col": 14,
+    "dir": "SW"
+   },
+   "SIREN": {
+    "row": 6,
+    "col": 9,
+    "dir": "SW"
+   },
+   "BLAZE": {
+    "row": 3,
+    "col": 3,
+    "dir": "E"
+   },
+   "SMOKE": {
+    "row": 13,
+    "col": 10,
+    "dir": "NW"
+   },
+   "ALARM": {
+    "row": 1,
+    "col": 9,
+    "dir": "S"
+   },
+   "BADGE": {
+    "row": 10,
+    "col": 9,
+    "dir": "SE"
+   },
+   "DRILL": {
+    "row": 14,
+    "col": 0,
+    "dir": "N"
+   },
+   "HOSE": {
+    "row": 10,
+    "col": 4,
+    "dir": "SE"
+   },
+   "PUMP": {
+    "row": 3,
+    "col": 2,
+    "dir": "NE"
+   },
+   "SOOT": {
+    "row": 0,
+    "col": 14,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 26,
+  "clue": "ANCHOR",
+  "words": [
+   "BOSUN",
+   "CABIN",
+   "CHANDLER",
+   "DECK",
+   "DOCKYARD",
+   "GALLEY",
+   "HARBOUR",
+   "HULL",
+   "KEEL",
+   "MAST",
+   "PLANK",
+   "RIGGING",
+   "ROPE",
+   "SAILOR",
+   "TIMBER"
+  ],
+  "grid": [
+   "BRTGCVHURAAFTAW",
+   "NROPWPUDURESMOU",
+   "MZILLHIHOVASKRH",
+   "HMZGIAUUBMERNYO",
+   "VKPUGANARVYUIKD",
+   "BEIHBISKAZSASCI",
+   "DEMKFBNNHONDOEU",
+   "RLEAGTMGBUSXMDQ",
+   "KOJBIRRVCGYBZXJ",
+   "PTHMWCHANDLERNJ",
+   "DVBCXLBQRFOCLCY",
+   "ZEADNICHOTUCLHR",
+   "RORNNAJGPLLUHYV",
+   "DOCKYARDEGDPGJN",
+   "KVBKYELLAGLWQNR"
+  ],
+  "placed": {
+   "DOCKYARD": {
+    "row": 13,
+    "col": 0,
+    "dir": "E"
+   },
+   "CHANDLER": {
+    "row": 9,
+    "col": 5,
+    "dir": "E"
+   },
+   "RIGGING": {
+    "row": 1,
+    "col": 1,
+    "dir": "SE"
+   },
+   "HARBOUR": {
+    "row": 6,
+    "col": 8,
+    "dir": "N"
+   },
+   "TIMBER": {
+    "row": 7,
+    "col": 5,
+    "dir": "SW"
+   },
+   "SAILOR": {
+    "row": 5,
+    "col": 6,
+    "dir": "NW"
+   },
+   "GALLEY": {
+    "row": 14,
+    "col": 9,
+    "dir": "W"
+   },
+   "ANCHOR": {
+    "row": 12,
+    "col": 5,
+    "dir": "NW"
+   },
+   "BOSUN": {
+    "row": 7,
+    "col": 8,
+    "dir": "NE"
+   },
+   "PLANK": {
+    "row": 1,
+    "col": 3,
+    "dir": "SE"
+   },
+   "CABIN": {
+    "row": 8,
+    "col": 8,
+    "dir": "SW"
+   },
+   "HULL": {
+    "row": 12,
+    "col": 12,
+    "dir": "W"
+   },
+   "MAST": {
+    "row": 3,
+    "col": 9,
+    "dir": "NE"
+   },
+   "KEEL": {
+    "row": 4,
+    "col": 1,
+    "dir": "S"
+   },
+   "ROPE": {
+    "row": 10,
+    "col": 8,
+    "dir": "S"
+   },
+   "DECK": {
+    "row": 7,
+    "col": 13,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 27,
+  "clue": "NEEDLE",
+  "words": [
+   "BOBBIN",
+   "CHALK",
+   "COLLAR",
+   "CUFFLINK",
+   "FITTING",
+   "HEMLINE",
+   "PATTERN",
+   "SEAM",
+   "SLEEVE",
+   "SUIT",
+   "TAILOR",
+   "THIMBLE",
+   "THREAD",
+   "TROUSERS",
+   "ZIPPER"
+  ],
+  "grid": [
+   "DZIPPERVMMDJUNG",
+   "CMOKOZICXEAENEK",
+   "WOFMBDUBNMEXDSH",
+   "ASLCVFTIVTRGMEC",
+   "GLKLFQLBNQHEWBH",
+   "NCWLAMTBSITHPEA",
+   "JEINERRGPGBNLCL",
+   "NNEHANOCAAVBUCK",
+   "KRJDQVUQXKMYOTI",
+   "AFEALMSXXISOABI",
+   "DJPTVEEYHLOIYVJ",
+   "HMHLTLRTGCLEEXT",
+   "TMAESASFWOITKNI",
+   "MOSFJMPERLBCWHU",
+   "EVEELSXFITTINGS"
+  ],
+  "placed": {
+   "TROUSERS": {
+    "row": 5,
+    "col": 6,
+    "dir": "S"
+   },
+   "CUFFLINK": {
+    "row": 1,
+    "col": 7,
+    "dir": "SW"
+   },
+   "THIMBLE": {
+    "row": 11,
+    "col": 7,
+    "dir": "NE"
+   },
+   "PATTERN": {
+    "row": 13,
+    "col": 6,
+    "dir": "NW"
+   },
+   "HEMLINE": {
+    "row": 7,
+    "col": 3,
+    "dir": "NE"
+   },
+   "FITTING": {
+    "row": 14,
+    "col": 7,
+    "dir": "E"
+   },
+   "THREAD": {
+    "row": 5,
+    "col": 10,
+    "dir": "N"
+   },
+   "BOBBIN": {
+    "row": 9,
+    "col": 13,
+    "dir": "NW"
+   },
+   "ZIPPER": {
+    "row": 0,
+    "col": 1,
+    "dir": "E"
+   },
+   "TAILOR": {
+    "row": 8,
+    "col": 13,
+    "dir": "SW"
+   },
+   "COLLAR": {
+    "row": 1,
+    "col": 0,
+    "dir": "SE"
+   },
+   "SLEEVE": {
+    "row": 14,
+    "col": 5,
+    "dir": "W"
+   },
+   "NEEDLE": {
+    "row": 5,
+    "col": 0,
+    "dir": "SE"
+   },
+   "CHALK": {
+    "row": 3,
+    "col": 14,
+    "dir": "S"
+   },
+   "SEAM": {
+    "row": 12,
+    "col": 4,
+    "dir": "W"
+   },
+   "SUIT": {
+    "row": 14,
+    "col": 14,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 28,
+  "clue": "TELESCOPE",
+  "words": [
+   "ASTRONOMER",
+   "COMET",
+   "DOME",
+   "ECLIPSE",
+   "GALAXY",
+   "JUPITER",
+   "LENS",
+   "METEOR",
+   "MOONBEAM",
+   "NEBULA",
+   "ORBIT",
+   "PLANET",
+   "SATURN",
+   "STARLIGHT",
+   "ZODIAC"
+  ],
+  "grid": [
+   "AROJKOHCHIDLMYW",
+   "YNUDUGRFAOLCWXT",
+   "ESUQTICOCIEQRAE",
+   "ZTIBROXMEODEULL",
+   "EECLIPSEOTMOQAE",
+   "PXOFWWSQIOEEZGS",
+   "OLYCBALSNMNMTEC",
+   "GXOKFEAOCDVBMCO",
+   "VTMANTRAYOTWEPP",
+   "CEBSUTLKUMOOZAE",
+   "ENFRSURVTEGLUSM",
+   "OANABESTARLIGHT",
+   "HLFECKFGNZDBXDT",
+   "PPNONDSPRWSPDHK",
+   "OXCRETIPUJBXMFW"
+  ],
+  "placed": {
+   "ASTRONOMER": {
+    "row": 11,
+    "col": 3,
+    "dir": "NE"
+   },
+   "STARLIGHT": {
+    "row": 11,
+    "col": 6,
+    "dir": "E"
+   },
+   "TELESCOPE": {
+    "row": 1,
+    "col": 14,
+    "dir": "S"
+   },
+   "MOONBEAM": {
+    "row": 3,
+    "col": 7,
+    "dir": "SE"
+   },
+   "ECLIPSE": {
+    "row": 4,
+    "col": 1,
+    "dir": "E"
+   },
+   "JUPITER": {
+    "row": 14,
+    "col": 9,
+    "dir": "W"
+   },
+   "PLANET": {
+    "row": 13,
+    "col": 1,
+    "dir": "N"
+   },
+   "GALAXY": {
+    "row": 5,
+    "col": 13,
+    "dir": "N"
+   },
+   "METEOR": {
+    "row": 6,
+    "col": 11,
+    "dir": "NW"
+   },
+   "NEBULA": {
+    "row": 13,
+    "col": 2,
+    "dir": "NE"
+   },
+   "SATURN": {
+    "row": 6,
+    "col": 7,
+    "dir": "SW"
+   },
+   "ZODIAC": {
+    "row": 5,
+    "col": 12,
+    "dir": "NW"
+   },
+   "COMET": {
+    "row": 2,
+    "col": 8,
+    "dir": "SE"
+   },
+   "ORBIT": {
+    "row": 3,
+    "col": 5,
+    "dir": "W"
+   },
+   "DOME": {
+    "row": 7,
+    "col": 9,
+    "dir": "S"
+   },
+   "LENS": {
+    "row": 6,
+    "col": 6,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 29,
+  "clue": "INKPAD",
+  "words": [
+   "ALIBI",
+   "CELL",
+   "CONSTABLE",
+   "DESK",
+   "FINGERPRINT",
+   "HANDCUFFS",
+   "LOCKUP",
+   "MOTIVE",
+   "NOTEPAD",
+   "PATROL",
+   "REPORT",
+   "STATEMENT",
+   "SUSPECT",
+   "TRUNCHEON",
+   "WITNESS"
+  ],
+  "grid": [
+   "CBVUBJJWBPXOIPN",
+   "KAUUJCNIABEYUOH",
+   "LCCEDQYTPKFKTPB",
+   "SXPOFERNSRCERNO",
+   "MTNMNODEAOPAWDV",
+   "JCAOLSDSLAAAAWJ",
+   "ZYXTEDTSDMOTIVE",
+   "ISUHEHHANDCUFFS",
+   "BTHLBMCVBQTSIRC",
+   "ICFJLFENYLQUYVI",
+   "LEVPOECNUAEZUQN",
+   "APOZCVCMTREUREK",
+   "GSNVGMFVZCTNNPP",
+   "VUTNIRPREGNIFZA",
+   "DSKSMDGTROPERTD"
+  ],
+  "placed": {
+   "FINGERPRINT": {
+    "row": 13,
+    "col": 12,
+    "dir": "W"
+   },
+   "HANDCUFFS": {
+    "row": 7,
+    "col": 6,
+    "dir": "E"
+   },
+   "TRUNCHEON": {
+    "row": 12,
+    "col": 10,
+    "dir": "NW"
+   },
+   "STATEMENT": {
+    "row": 3,
+    "col": 0,
+    "dir": "SE"
+   },
+   "CONSTABLE": {
+    "row": 2,
+    "col": 2,
+    "dir": "SE"
+   },
+   "WITNESS": {
+    "row": 0,
+    "col": 7,
+    "dir": "S"
+   },
+   "SUSPECT": {
+    "row": 14,
+    "col": 1,
+    "dir": "N"
+   },
+   "NOTEPAD": {
+    "row": 0,
+    "col": 14,
+    "dir": "SW"
+   },
+   "REPORT": {
+    "row": 14,
+    "col": 12,
+    "dir": "W"
+   },
+   "PATROL": {
+    "row": 0,
+    "col": 9,
+    "dir": "SW"
+   },
+   "LOCKUP": {
+    "row": 5,
+    "col": 8,
+    "dir": "NE"
+   },
+   "MOTIVE": {
+    "row": 6,
+    "col": 9,
+    "dir": "E"
+   },
+   "INKPAD": {
+    "row": 9,
+    "col": 14,
+    "dir": "S"
+   },
+   "ALIBI": {
+    "row": 11,
+    "col": 0,
+    "dir": "N"
+   },
+   "CELL": {
+    "row": 11,
+    "col": 6,
+    "dir": "NW"
+   },
+   "DESK": {
+    "row": 5,
+    "col": 6,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 30,
+  "clue": "QUILT",
+  "words": [
+   "APPLIQUE",
+   "BINDING",
+   "BORDER",
+   "CALICO",
+   "COTTON",
+   "FABRIC",
+   "FLANNEL",
+   "HOOP",
+   "LINEN",
+   "PATCHWORK",
+   "PINCUSHION",
+   "SCISSORS",
+   "SQUARE",
+   "STITCH",
+   "WADDING"
+  ],
+  "grid": [
+   "PZEOQNENILTMYNH",
+   "ZIERAUYEZJZGOSC",
+   "HRNUADINETYTPGH",
+   "FPXCQUHLULTWACI",
+   "LOUJUIQHTOEWTVG",
+   "AOTQESLSCNEICLN",
+   "NHLKAZHPQHTHHVI",
+   "NLPWUKFIPSYHWMD",
+   "EWADDINGOAFKOSN",
+   "LLQGIGOYKNFCROI",
+   "KRRBORDERAAZKMB",
+   "SACUGGIUBLMRAUI",
+   "TRRSFUTRIBGEMFS",
+   "RSROSSICSUYOQKH",
+   "CLOXUCOFZSFWBFG"
+  ],
+  "placed": {
+   "PINCUSHION": {
+    "row": 0,
+    "col": 0,
+    "dir": "SE"
+   },
+   "PATCHWORK": {
+    "row": 2,
+    "col": 12,
+    "dir": "S"
+   },
+   "SCISSORS": {
+    "row": 13,
+    "col": 8,
+    "dir": "W"
+   },
+   "APPLIQUE": {
+    "row": 8,
+    "col": 9,
+    "dir": "NW"
+   },
+   "BINDING": {
+    "row": 10,
+    "col": 14,
+    "dir": "N"
+   },
+   "WADDING": {
+    "row": 8,
+    "col": 1,
+    "dir": "E"
+   },
+   "FLANNEL": {
+    "row": 3,
+    "col": 0,
+    "dir": "S"
+   },
+   "FABRIC": {
+    "row": 9,
+    "col": 10,
+    "dir": "SW"
+   },
+   "STITCH": {
+    "row": 7,
+    "col": 9,
+    "dir": "NE"
+   },
+   "COTTON": {
+    "row": 5,
+    "col": 8,
+    "dir": "NE"
+   },
+   "SQUARE": {
+    "row": 5,
+    "col": 7,
+    "dir": "NW"
+   },
+   "CALICO": {
+    "row": 9,
+    "col": 11,
+    "dir": "SW"
+   },
+   "BORDER": {
+    "row": 10,
+    "col": 3,
+    "dir": "E"
+   },
+   "LINEN": {
+    "row": 0,
+    "col": 9,
+    "dir": "W"
+   },
+   "QUILT": {
+    "row": 0,
+    "col": 4,
+    "dir": "SE"
+   },
+   "HOOP": {
+    "row": 6,
+    "col": 1,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 31,
+  "clue": "UKULELE",
+  "words": [
+   "ACCORDION",
+   "BANJO",
+   "CHOIR",
+   "CHORD",
+   "CHORUS",
+   "FIDDLE",
+   "HARMONY",
+   "REHEARSAL",
+   "RHYTHM",
+   "SONGBOOK",
+   "STRINGS",
+   "STRUM",
+   "TAMBOURINE",
+   "TUNING",
+   "VERSE"
+  ],
+  "grid": [
+   "FGELDVERSEDKWEH",
+   "XPARPUUVGKNNLUO",
+   "LNCBHTMMHOGEHFS",
+   "GFCHKYUQNRLJTUS",
+   "MBOYRZTREUAARGO",
+   "TNRZDCKHKAMOKNN",
+   "WQDBOQEUMBHFBIG",
+   "RUINUAKVOCFFBNB",
+   "ISORRXOUHEIUMUO",
+   "OINSXARJVALOLTO",
+   "HNARGIDMNHRDCOK",
+   "CLEVNCGFUAWMDVU",
+   "XHTEZDROHCBROID",
+   "BVIJPNNFQTLUHNF",
+   "STRUMISGNIRTSOY"
+  ],
+  "placed": {
+   "TAMBOURINE": {
+    "row": 3,
+    "col": 12,
+    "dir": "SW"
+   },
+   "REHEARSAL": {
+    "row": 3,
+    "col": 9,
+    "dir": "SW"
+   },
+   "ACCORDION": {
+    "row": 1,
+    "col": 2,
+    "dir": "S"
+   },
+   "SONGBOOK": {
+    "row": 3,
+    "col": 14,
+    "dir": "S"
+   },
+   "STRINGS": {
+    "row": 14,
+    "col": 12,
+    "dir": "W"
+   },
+   "HARMONY": {
+    "row": 8,
+    "col": 8,
+    "dir": "SE"
+   },
+   "UKULELE": {
+    "row": 6,
+    "col": 7,
+    "dir": "NE"
+   },
+   "TUNING": {
+    "row": 9,
+    "col": 13,
+    "dir": "N"
+   },
+   "FIDDLE": {
+    "row": 13,
+    "col": 14,
+    "dir": "NW"
+   },
+   "CHORUS": {
+    "row": 7,
+    "col": 9,
+    "dir": "NE"
+   },
+   "RHYTHM": {
+    "row": 1,
+    "col": 3,
+    "dir": "SE"
+   },
+   "CHORD": {
+    "row": 12,
+    "col": 9,
+    "dir": "W"
+   },
+   "BANJO": {
+    "row": 12,
+    "col": 10,
+    "dir": "NW"
+   },
+   "VERSE": {
+    "row": 0,
+    "col": 5,
+    "dir": "E"
+   },
+   "STRUM": {
+    "row": 14,
+    "col": 0,
+    "dir": "E"
+   },
+   "CHOIR": {
+    "row": 11,
+    "col": 0,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 32,
+  "clue": "EGGCUP",
+  "words": [
+   "BACON",
+   "BEDROOM",
+   "BREAKFAST",
+   "CEREAL",
+   "GUESTBOOK",
+   "KIPPER",
+   "LANDING",
+   "LANDLADY",
+   "LODGER",
+   "MUFFIN",
+   "MUSHROOM",
+   "PANCAKE",
+   "PORRIDGE",
+   "TOAST",
+   "YOGHURT"
+  ],
+  "grid": [
+   "NLAERECFQCNXEYS",
+   "AVBOBAMYEIKEWDO",
+   "HWIBPRNBFUNOFAO",
+   "LODGEREFGBQHHLO",
+   "MEKURDUAZIOHBDO",
+   "RFAORMAQKSPCANG",
+   "MJBOOXCEYFSQCAN",
+   "EOOCABTPRRAQOLI",
+   "GMOGJOTEORASNPD",
+   "GANRARPSCRGUTCN",
+   "CEXSHPHNEURONDA",
+   "UQTSISXGDURIRDL",
+   "PVZKVTUJCEGYDSR",
+   "PANCAKEMYMISBGZ",
+   "FRURXCTRUHGOYZE"
+  ],
+  "placed": {
+   "GUESTBOOK": {
+    "row": 12,
+    "col": 10,
+    "dir": "NW"
+   },
+   "BREAKFAST": {
+    "row": 1,
+    "col": 4,
+    "dir": "SE"
+   },
+   "PORRIDGE": {
+    "row": 7,
+    "col": 7,
+    "dir": "SE"
+   },
+   "MUSHROOM": {
+    "row": 13,
+    "col": 7,
+    "dir": "NW"
+   },
+   "LANDLADY": {
+    "row": 7,
+    "col": 13,
+    "dir": "N"
+   },
+   "YOGHURT": {
+    "row": 14,
+    "col": 12,
+    "dir": "W"
+   },
+   "BEDROOM": {
+    "row": 2,
+    "col": 7,
+    "dir": "SW"
+   },
+   "PANCAKE": {
+    "row": 13,
+    "col": 0,
+    "dir": "E"
+   },
+   "LANDING": {
+    "row": 11,
+    "col": 14,
+    "dir": "N"
+   },
+   "KIPPER": {
+    "row": 12,
+    "col": 3,
+    "dir": "NE"
+   },
+   "CEREAL": {
+    "row": 0,
+    "col": 6,
+    "dir": "W"
+   },
+   "LODGER": {
+    "row": 3,
+    "col": 0,
+    "dir": "E"
+   },
+   "MUFFIN": {
+    "row": 5,
+    "col": 5,
+    "dir": "NE"
+   },
+   "EGGCUP": {
+    "row": 7,
+    "col": 0,
+    "dir": "S"
+   },
+   "BACON": {
+    "row": 4,
+    "col": 12,
+    "dir": "S"
+   },
+   "TOAST": {
+    "row": 7,
+    "col": 6,
+    "dir": "SW"
+   }
+  }
+ },
+ {
+  "case": 33,
+  "clue": "DAFFODIL",
+  "words": [
+   "BLUEBELL",
+   "BOUQUET",
+   "CROCUS",
+   "DAHLIA",
+   "FOXGLOVE",
+   "HYACINTH",
+   "JASMINE",
+   "LAVENDER",
+   "MARIGOLD",
+   "PEONY",
+   "PETAL",
+   "POPPY",
+   "PRIMROSE",
+   "TULIP",
+   "WISTERIA"
+  ],
+  "grid": [
+   "HNXKQVXOEDLDWUI",
+   "WTKVLSDLOGIRAMS",
+   "PVNABIWTULIPJMN",
+   "IVHILLDSHIFPCME",
+   "IQWACYUOZGDBWPN",
+   "PJTIUABEFSGOFRI",
+   "OEEGSOYNBFAQAIM",
+   "PBVIUTRHEEAKIMS",
+   "POXQHAEVCHLDLRA",
+   "YRUYQIORCENLHOJ",
+   "PEONYLOXIIONASL",
+   "TKHJGCLUJABGDEM",
+   "GJVXUREDNEVALNW",
+   "BPOSEULTKTXQZPT",
+   "JFSUAALMXLLDDAF"
+  ],
+  "placed": {
+   "LAVENDER": {
+    "row": 12,
+    "col": 12,
+    "dir": "W"
+   },
+   "HYACINTH": {
+    "row": 7,
+    "col": 7,
+    "dir": "NW"
+   },
+   "FOXGLOVE": {
+    "row": 14,
+    "col": 1,
+    "dir": "NE"
+   },
+   "BLUEBELL": {
+    "row": 2,
+    "col": 4,
+    "dir": "SE"
+   },
+   "MARIGOLD": {
+    "row": 1,
+    "col": 13,
+    "dir": "W"
+   },
+   "PRIMROSE": {
+    "row": 4,
+    "col": 13,
+    "dir": "S"
+   },
+   "WISTERIA": {
+    "row": 4,
+    "col": 2,
+    "dir": "SE"
+   },
+   "DAFFODIL": {
+    "row": 8,
+    "col": 11,
+    "dir": "NW"
+   },
+   "BOUQUET": {
+    "row": 5,
+    "col": 6,
+    "dir": "SW"
+   },
+   "JASMINE": {
+    "row": 9,
+    "col": 14,
+    "dir": "N"
+   },
+   "CROCUS": {
+    "row": 8,
+    "col": 8,
+    "dir": "SW"
+   },
+   "DAHLIA": {
+    "row": 11,
+    "col": 12,
+    "dir": "N"
+   },
+   "TULIP": {
+    "row": 2,
+    "col": 7,
+    "dir": "E"
+   },
+   "PEONY": {
+    "row": 10,
+    "col": 0,
+    "dir": "E"
+   },
+   "POPPY": {
+    "row": 5,
+    "col": 0,
+    "dir": "S"
+   },
+   "PETAL": {
+    "row": 7,
+    "col": 0,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 34,
+  "clue": "EPAULETTE",
+  "words": [
+   "ARMOUR",
+   "BANNER",
+   "BARRACKS",
+   "BAYONET",
+   "BUGLE",
+   "CAMPAIGN",
+   "CANNON",
+   "MAJOR",
+   "MEDAL",
+   "MUSKET",
+   "REGIMENT",
+   "SABRE",
+   "SERGEANT",
+   "TRENCH",
+   "UNIFORM"
+  ],
+  "grid": [
+   "HDTWUEETTELUAPE",
+   "HCTJSABMSAWAZTU",
+   "QBNBPTSARPTLUCT",
+   "NVEEZFLEROKRRAI",
+   "BSMBRJHFTRFJRCK",
+   "AEIUHTQNIHAIHQW",
+   "NYGGRXALABMCNLI",
+   "NTELJEAZCYFJKUF",
+   "EYREGDCARMOURSR",
+   "RSEREAMZBAYONET",
+   "BXEMNPINTEKSUMC",
+   "ASYNAUMFFAOIIHQ",
+   "SVOISJIMWSQCMTU",
+   "HNGUIAOXVHXZWSX",
+   "XNOSLTORCEBWLTV"
+  ],
+  "placed": {
+   "EPAULETTE": {
+    "row": 0,
+    "col": 14,
+    "dir": "W"
+   },
+   "REGIMENT": {
+    "row": 8,
+    "col": 2,
+    "dir": "N"
+   },
+   "BARRACKS": {
+    "row": 1,
+    "col": 6,
+    "dir": "SE"
+   },
+   "SERGEANT": {
+    "row": 11,
+    "col": 1,
+    "dir": "NE"
+   },
+   "CAMPAIGN": {
+    "row": 7,
+    "col": 8,
+    "dir": "SW"
+   },
+   "BAYONET": {
+    "row": 9,
+    "col": 8,
+    "dir": "E"
+   },
+   "UNIFORM": {
+    "row": 7,
+    "col": 13,
+    "dir": "NW"
+   },
+   "CANNON": {
+    "row": 8,
+    "col": 6,
+    "dir": "SW"
+   },
+   "MUSKET": {
+    "row": 10,
+    "col": 13,
+    "dir": "W"
+   },
+   "TRENCH": {
+    "row": 5,
+    "col": 5,
+    "dir": "NW"
+   },
+   "BANNER": {
+    "row": 4,
+    "col": 0,
+    "dir": "S"
+   },
+   "ARMOUR": {
+    "row": 8,
+    "col": 7,
+    "dir": "E"
+   },
+   "MEDAL": {
+    "row": 10,
+    "col": 3,
+    "dir": "NE"
+   },
+   "BUGLE": {
+    "row": 4,
+    "col": 3,
+    "dir": "S"
+   },
+   "SABRE": {
+    "row": 12,
+    "col": 0,
+    "dir": "N"
+   },
+   "MAJOR": {
+    "row": 10,
+    "col": 3,
+    "dir": "SE"
+   }
+  }
+ },
+ {
+  "case": 35,
+  "clue": "ACORN",
+  "words": [
+   "ANTLER",
+   "BADGER",
+   "BEECH",
+   "BIRCH",
+   "BRAMBLE",
+   "CLEARING",
+   "FOOTPATH",
+   "HOLLOW",
+   "LICHEN",
+   "MOSS",
+   "PINECONE",
+   "SQUIRREL",
+   "THICKET",
+   "TOADSTOOL",
+   "TWIG"
+  ],
+  "grid": [
+   "KXKGRVNIFWPXDDK",
+   "GWDKGTNRDCYZHEH",
+   "UKWQJROBOEECARI",
+   "UJCPYLBAFCLHLED",
+   "BJTQYTRLDEAIMLA",
+   "RTWHYNEMASEQBTI",
+   "AKIOIRERNNTILNR",
+   "MMGGRCIHOYROMAE",
+   "BZUIPNKCCCPTOMG",
+   "LLUJGSEEHILRJLD",
+   "EQLPHNWTTLLPUYA",
+   "SQHFIHTAPTOOFRB",
+   "KEYPEMADHZTLHPW",
+   "SSOMHOLLOWKEMYY",
+   "BEECHSYYIRVPMZX"
+  ],
+  "placed": {
+   "TOADSTOOL": {
+    "row": 1,
+    "col": 5,
+    "dir": "SE"
+   },
+   "SQUIRREL": {
+    "row": 11,
+    "col": 0,
+    "dir": "NE"
+   },
+   "CLEARING": {
+    "row": 2,
+    "col": 11,
+    "dir": "SW"
+   },
+   "PINECONE": {
+    "row": 12,
+    "col": 3,
+    "dir": "NE"
+   },
+   "FOOTPATH": {
+    "row": 11,
+    "col": 12,
+    "dir": "W"
+   },
+   "BRAMBLE": {
+    "row": 4,
+    "col": 0,
+    "dir": "S"
+   },
+   "THICKET": {
+    "row": 4,
+    "col": 2,
+    "dir": "SE"
+   },
+   "BADGER": {
+    "row": 11,
+    "col": 14,
+    "dir": "N"
+   },
+   "HOLLOW": {
+    "row": 13,
+    "col": 4,
+    "dir": "E"
+   },
+   "ANTLER": {
+    "row": 7,
+    "col": 13,
+    "dir": "N"
+   },
+   "LICHEN": {
+    "row": 10,
+    "col": 10,
+    "dir": "NW"
+   },
+   "BEECH": {
+    "row": 14,
+    "col": 0,
+    "dir": "E"
+   },
+   "BIRCH": {
+    "row": 5,
+    "col": 12,
+    "dir": "SW"
+   },
+   "ACORN": {
+    "row": 4,
+    "col": 10,
+    "dir": "NW"
+   },
+   "MOSS": {
+    "row": 13,
+    "col": 3,
+    "dir": "W"
+   },
+   "TWIG": {
+    "row": 4,
+    "col": 2,
+    "dir": "S"
+   }
+  }
+ },
+ {
+  "case": 36,
+  "clue": "LEDGER",
+  "words": [
+   "BALANCE",
+   "CRATE",
+   "CREDIT",
+   "DEBT",
+   "DELIVERY",
+   "FARTHING",
+   "GROCER",
+   "PRICE",
+   "RATIONS",
+   "RECEIPT",
+   "SACK",
+   "SHILLING",
+   "SHOPKEEPER",
+   "TALLY",
+   "TILL"
+  ],
+  "grid": [
+   "LQSCAITKAPAJIOD",
+   "TILLCPSLHCRATED",
+   "NISVIZHGNIHTRAF",
+   "HCMEXTORTCDSLHA",
+   "FXCUZTPECNALABJ",
+   "REMIELKETXUCGAX",
+   "RNTPMEECBHERDMS",
+   "DWAIWDEIEKOSEHK",
+   "SECVDGPRDCIUIPW",
+   "XNLEHEEPEBRLHSX",
+   "MUOISRRRZTLQXCA",
+   "HCIIVXJCIIAKNMR",
+   "JMBQTESSNNCLZFF",
+   "JTNFEARGWAAYLSO",
+   "MKGAAKRYSUFYEYC"
+  ],
+  "placed": {
+   "SHOPKEEPER": {
+    "row": 1,
+    "col": 6,
+    "dir": "S"
+   },
+   "DELIVERY": {
+    "row": 7,
+    "col": 0,
+    "dir": "SE"
+   },
+   "SHILLING": {
+    "row": 6,
+    "col": 14,
+    "dir": "SW"
+   },
+   "FARTHING": {
+    "row": 2,
+    "col": 14,
+    "dir": "W"
+   },
+   "RECEIPT": {
+    "row": 6,
+    "col": 0,
+    "dir": "NE"
+   },
+   "RATIONS": {
+    "row": 14,
+    "col": 6,
+    "dir": "NW"
+   },
+   "BALANCE": {
+    "row": 4,
+    "col": 13,
+    "dir": "W"
+   },
+   "CREDIT": {
+    "row": 11,
+    "col": 7,
+    "dir": "NW"
+   },
+   "GROCER": {
+    "row": 5,
+    "col": 12,
+    "dir": "SW"
+   },
+   "LEDGER": {
+    "row": 5,
+    "col": 5,
+    "dir": "S"
+   },
+   "PRICE": {
+    "row": 9,
+    "col": 7,
+    "dir": "N"
+   },
+   "CRATE": {
+    "row": 1,
+    "col": 9,
+    "dir": "E"
+   },
+   "TALLY": {
+    "row": 10,
+    "col": 9,
+    "dir": "SE"
+   },
+   "TILL": {
+    "row": 1,
+    "col": 0,
+    "dir": "E"
+   },
+   "DEBT": {
+    "row": 8,
+    "col": 8,
+    "dir": "N"
+   },
+   "SACK": {
+    "row": 14,
+    "col": 8,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 37,
+  "clue": "ELDERBERRY",
+  "words": [
+   "APRICOT",
+   "BOTTLING",
+   "CHAIRWOMAN",
+   "CHERRY",
+   "CHUTNEY",
+   "DAMSON",
+   "GOOSEBERRY",
+   "INSTITUTE",
+   "PECTIN",
+   "PRESERVE",
+   "RASPBERRY",
+   "SECRETARY",
+   "SIMMER",
+   "STRAWBERRY",
+   "TREASURER"
+  ],
+  "grid": [
+   "ESIMMERDMKNUTWP",
+   "DYVIYTREASURERP",
+   "BBZGDYRREBPSARY",
+   "CAYEGJCYQTRERRG",
+   "NHHRSNAGEMVGRES",
+   "DRALRPITUSIEEYY",
+   "NAHIREULEMBCLTE",
+   "ZEMIRTBCTWIGDPN",
+   "ORCSIWREATKUEET",
+   "KOJTOEORSYOWRCU",
+   "TRSDTNTMQOYBBTH",
+   "YNMAQSYEAHOWEIC",
+   "IRRJGSQGWNNGRNE",
+   "GYEVRESERPSNRDI",
+   "LCHERRYQFIVQYKC"
+  ],
+  "placed": {
+   "STRAWBERRY": {
+    "row": 11,
+    "col": 5,
+    "dir": "NE"
+   },
+   "GOOSEBERRY": {
+    "row": 12,
+    "col": 11,
+    "dir": "NW"
+   },
+   "CHAIRWOMAN": {
+    "row": 3,
+    "col": 0,
+    "dir": "SE"
+   },
+   "ELDERBERRY": {
+    "row": 5,
+    "col": 12,
+    "dir": "S"
+   },
+   "RASPBERRY": {
+    "row": 2,
+    "col": 13,
+    "dir": "W"
+   },
+   "INSTITUTE": {
+    "row": 12,
+    "col": 0,
+    "dir": "NE"
+   },
+   "SECRETARY": {
+    "row": 5,
+    "col": 9,
+    "dir": "SW"
+   },
+   "TREASURER": {
+    "row": 1,
+    "col": 5,
+    "dir": "E"
+   },
+   "PRESERVE": {
+    "row": 13,
+    "col": 9,
+    "dir": "W"
+   },
+   "BOTTLING": {
+    "row": 10,
+    "col": 11,
+    "dir": "NW"
+   },
+   "APRICOT": {
+    "row": 4,
+    "col": 6,
+    "dir": "SW"
+   },
+   "CHUTNEY": {
+    "row": 11,
+    "col": 14,
+    "dir": "N"
+   },
+   "DAMSON": {
+    "row": 5,
+    "col": 0,
+    "dir": "SE"
+   },
+   "PECTIN": {
+    "row": 7,
+    "col": 13,
+    "dir": "S"
+   },
+   "SIMMER": {
+    "row": 0,
+    "col": 1,
+    "dir": "E"
+   },
+   "CHERRY": {
+    "row": 14,
+    "col": 1,
+    "dir": "E"
+   }
+  }
+ },
+ {
+  "case": 38,
+  "clue": "RECIPE",
+  "words": [
+   "CASSEROLE",
+   "CHOPPING",
+   "COLANDER",
+   "GRATER",
+   "GRAVY",
+   "MIXER",
+   "PARSLEY",
+   "PUDDING",
+   "SAUCEPAN",
+   "SEASONING",
+   "SKILLET",
+   "SOUFFLE",
+   "SPATULA",
+   "STEWPOT",
+   "TEASPOON"
+  ],
+  "grid": [
+   "SGKGTELLIKSNIHF",
+   "WHRYNOOVSWEERTR",
+   "ICGEVIVWWSLBEAU",
+   "UVBLDSPLSOBAZSK",
+   "QQISZNNPRCSKPCR",
+   "SXTRLGAEOPFAXIG",
+   "CTZASZSLOHTTXNE",
+   "RSEPUSHOOUCXITD",
+   "GOGWARNKLCENOZG",
+   "VUNCPYJAFROXXGR",
+   "DFITMOTLPSTMIRV",
+   "GFDZHQTSAUCEPAN",
+   "ZLDDGBWEGRAVYTL",
+   "JEUJBASPRECIPEL",
+   "OKPREXIMQKRCTRA"
+  ],
+  "placed": {
+   "CASSEROLE": {
+    "row": 9,
+    "col": 3,
+    "dir": "NE"
+   },
+   "SEASONING": {
+    "row": 13,
+    "col": 6,
+    "dir": "NE"
+   },
+   "SAUCEPAN": {
+    "row": 11,
+    "col": 7,
+    "dir": "E"
+   },
+   "COLANDER": {
+    "row": 8,
+    "col": 9,
+    "dir": "NW"
+   },
+   "CHOPPING": {
+    "row": 7,
+    "col": 10,
+    "dir": "NW"
+   },
+   "TEASPOON": {
+    "row": 1,
+    "col": 13,
+    "dir": "SW"
+   },
+   "SPATULA": {
+    "row": 3,
+    "col": 13,
+    "dir": "SW"
+   },
+   "STEWPOT": {
+    "row": 5,
+    "col": 0,
+    "dir": "SE"
+   },
+   "SOUFFLE": {
+    "row": 7,
+    "col": 1,
+    "dir": "S"
+   },
+   "PUDDING": {
+    "row": 14,
+    "col": 2,
+    "dir": "N"
+   },
+   "PARSLEY": {
+    "row": 7,
+    "col": 3,
+    "dir": "N"
+   },
+   "SKILLET": {
+    "row": 0,
+    "col": 10,
+    "dir": "W"
+   },
+   "GRATER": {
+    "row": 9,
+    "col": 13,
+    "dir": "S"
+   },
+   "RECIPE": {
+    "row": 13,
+    "col": 8,
+    "dir": "E"
+   },
+   "MIXER": {
+    "row": 14,
+    "col": 7,
+    "dir": "W"
+   },
+   "GRAVY": {
+    "row": 12,
+    "col": 8,
+    "dir": "E"
+   }
+  }
+ },
+ {
+  "case": 39,
+  "clue": "WHISTLE",
+  "words": [
+   "BAILS",
+   "BOUNDARY",
+   "BOWLER",
+   "CATCH",
+   "CREASE",
+   "FIELDER",
+   "INNINGS",
+   "LEATHER",
+   "MATCH",
+   "PADS",
+   "PAVILION",
+   "SCOREBOARD",
+   "STUMPS",
+   "UMPIRE",
+   "WICKET"
+  ],
+  "grid": [
+   "BSRCGBNRUTRIVTB",
+   "EQNERARELWOBIVA",
+   "QPEIHETFIELDERI",
+   "LDDSOTALVMIWWOL",
+   "VFUKCAASTEKIOYS",
+   "HPADSOSEENPVRRW",
+   "CMGTMPRWLASAEDH",
+   "TVDCMKIEVHDMRAI",
+   "ASDUHCZIBNMQIPS",
+   "CDTEKMLBUOSZPTT",
+   "FSHEUIPOHQAFMQL",
+   "ZRTCOKBQVUFRUME",
+   "SWJNTZWSJFWEDJJ",
+   "FVANQASGNINNIKS",
+   "SSTCXTMTTHVZHZC"
+  ],
+  "placed": {
+   "SCOREBOARD": {
+    "row": 3,
+    "col": 3,
+    "dir": "SE"
+   },
+   "BOUNDARY": {
+    "row": 11,
+    "col": 6,
+    "dir": "NE"
+   },
+   "PAVILION": {
+    "row": 5,
+    "col": 10,
+    "dir": "SW"
+   },
+   "INNINGS": {
+    "row": 13,
+    "col": 12,
+    "dir": "W"
+   },
+   "LEATHER": {
+    "row": 6,
+    "col": 8,
+    "dir": "NW"
+   },
+   "FIELDER": {
+    "row": 2,
+    "col": 7,
+    "dir": "E"
+   },
+   "WHISTLE": {
+    "row": 5,
+    "col": 14,
+    "dir": "S"
+   },
+   "WICKET": {
+    "row": 6,
+    "col": 7,
+    "dir": "SW"
+   },
+   "BOWLER": {
+    "row": 1,
+    "col": 11,
+    "dir": "W"
+   },
+   "UMPIRE": {
+    "row": 11,
+    "col": 12,
+    "dir": "N"
+   },
+   "CREASE": {
+    "row": 0,
+    "col": 3,
+    "dir": "SE"
+   },
+   "STUMPS": {
+    "row": 10,
+    "col": 1,
+    "dir": "NE"
+   },
+   "BAILS": {
+    "row": 0,
+    "col": 14,
+    "dir": "S"
+   },
+   "CATCH": {
+    "row": 9,
+    "col": 0,
+    "dir": "N"
+   },
+   "MATCH": {
+    "row": 14,
+    "col": 6,
+    "dir": "NW"
+   },
+   "PADS": {
+    "row": 5,
+    "col": 1,
+    "dir": "E"
+   }
+  }
+ },
+ {
+  "case": 40,
+  "clue": "HOURGLASS",
+  "words": [
+   "BRASS",
+   "CHRONOMETER",
+   "COGWHEEL",
+   "CUCKOO",
+   "DIAL",
+   "ESCAPEMENT",
+   "GEARS",
+   "LOUPE",
+   "MIDNIGHT",
+   "MINUTE",
+   "PENDULUM",
+   "SPRING",
+   "TICKING",
+   "WINDING",
+   "WORKBENCH"
+  ],
+  "grid": [
+   "JKHOURGLASSMKGF",
+   "EOOKCUCLODFENCL",
+   "SPSPTPCBAEEIPES",
+   "CCPNHTHWZIDXEGA",
+   "AYHDXTHVGNDHHAT",
+   "PSHRJZRGIWWLMJU",
+   "ESTWOUVWIGLHDMW",
+   "MAVEONQRONLYIWG",
+   "ERDDHROCYGDNNEM",
+   "NBENDZKMEYUIASE",
+   "TVAEWYCBETPRMPP",
+   "KWLRTCVPETSQSRU",
+   "MULUDNEPONENGIO",
+   "VWSTICKINGCRONL",
+   "QNJQSZMSDAPHJGF"
+  ],
+  "placed": {
+   "CHRONOMETER": {
+    "row": 3,
+    "col": 1,
+    "dir": "SE"
+   },
+   "ESCAPEMENT": {
+    "row": 1,
+    "col": 0,
+    "dir": "S"
+   },
+   "WORKBENCH": {
+    "row": 6,
+    "col": 3,
+    "dir": "SE"
+   },
+   "HOURGLASS": {
+    "row": 0,
+    "col": 2,
+    "dir": "E"
+   },
+   "PENDULUM": {
+    "row": 12,
+    "col": 7,
+    "dir": "W"
+   },
+   "COGWHEEL": {
+    "row": 8,
+    "col": 7,
+    "dir": "NE"
+   },
+   "MIDNIGHT": {
+    "row": 10,
+    "col": 12,
+    "dir": "NW"
+   },
+   "TICKING": {
+    "row": 13,
+    "col": 3,
+    "dir": "E"
+   },
+   "WINDING": {
+    "row": 6,
+    "col": 7,
+    "dir": "NE"
+   },
+   "SPRING": {
+    "row": 9,
+    "col": 13,
+    "dir": "S"
+   },
+   "MINUTE": {
+    "row": 6,
+    "col": 13,
+    "dir": "SW"
+   },
+   "CUCKOO": {
+    "row": 1,
+    "col": 6,
+    "dir": "W"
+   },
+   "GEARS": {
+    "row": 7,
+    "col": 14,
+    "dir": "SW"
+   },
+   "LOUPE": {
+    "row": 13,
+    "col": 14,
+    "dir": "N"
+   },
+   "BRASS": {
+    "row": 9,
+    "col": 1,
+    "dir": "N"
+   },
+   "DIAL": {
+    "row": 4,
+    "col": 10,
+    "dir": "NW"
+   }
+  }
+ },
+ {
+  "case": 41,
+  "clue": "OILCAN",
+  "words": [
+   "BEAMS",
+   "BREEZE",
+   "COGS",
+   "CORNMEAL",
+   "GALE",
+   "GRINDING",
+   "HOPPER",
+   "LOFT",
+   "MILLER",
+   "MILLPOND",
+   "MILLSTONE",
+   "ROTATE",
+   "SAILS",
+   "SPINDLE",
+   "TURRET"
+  ],
+  "grid": [
+   "ZJEDETURRETWTCK",
+   "ROTATEGOCTLTOBF",
+   "UXHOWSECFJAHIWN",
+   "ZELAGMVOFHEDLCH",
+   "AETGCLLHHMMRCRH",
+   "EZEERBSVVENQABW",
+   "MYEUJPCGNCRQNRC",
+   "FIHNIFJYRPODAEB",
+   "FELNOHWESICJMLJ",
+   "PZDLKTPUSGNKBLW",
+   "OLBOPPSAURODWIK",
+   "EOENOOILCTQCIMX",
+   "BTAHVLNVLVKWDNR",
+   "XHMVSHUDHIARKHG",
+   "DPSGJZWRKQMPEOX"
+  ],
+  "placed": {
+   "MILLSTONE": {
+    "row": 14,
+    "col": 10,
+    "dir": "NW"
+   },
+   "GRINDING": {
+    "row": 6,
+    "col": 7,
+    "dir": "SE"
+   },
+   "CORNMEAL": {
+    "row": 8,
+    "col": 10,
+    "dir": "N"
+   },
+   "MILLPOND": {
+    "row": 6,
+    "col": 0,
+    "dir": "SE"
+   },
+   "SPINDLE": {
+    "row": 5,
+    "col": 6,
+    "dir": "SW"
+   },
+   "MILLER": {
+    "row": 11,
+    "col": 13,
+    "dir": "N"
+   },
+   "HOPPER": {
+    "row": 12,
+    "col": 3,
+    "dir": "NE"
+   },
+   "BREEZE": {
+    "row": 5,
+    "col": 5,
+    "dir": "W"
+   },
+   "TURRET": {
+    "row": 0,
+    "col": 5,
+    "dir": "E"
+   },
+   "ROTATE": {
+    "row": 1,
+    "col": 0,
+    "dir": "E"
+   },
+   "OILCAN": {
+    "row": 1,
+    "col": 12,
+    "dir": "S"
+   },
+   "SAILS": {
+    "row": 9,
+    "col": 8,
+    "dir": "SW"
+   },
+   "BEAMS": {
+    "row": 10,
+    "col": 2,
+    "dir": "S"
+   },
+   "COGS": {
+    "row": 11,
+    "col": 11,
+    "dir": "NW"
+   },
+   "GALE": {
+    "row": 3,
+    "col": 4,
+    "dir": "W"
+   },
+   "LOFT": {
+    "row": 4,
+    "col": 6,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 42,
+  "clue": "LOCKET",
+  "words": [
+   "ANGEL",
+   "BURIAL",
+   "CHURCHYARD",
+   "CROSS",
+   "HEADSTONE",
+   "INSCRIPTION",
+   "LYCHGATE",
+   "MAUSOLEUM",
+   "MEMORIAL",
+   "MIST",
+   "MOURNER",
+   "RAVEN",
+   "SEXTON",
+   "VERGER",
+   "WREATH"
+  ],
+  "grid": [
+   "FVRXHRNVFRACCHL",
+   "TSIMDEMEYNSNBJM",
+   "SSNORWADVKOUGBC",
+   "FYXUAGHDVARTBEL",
+   "VEBRYPTGSIRNXAL",
+   "MGLNHCAEATOAIEM",
+   "AMEECJELTIORVVS",
+   "UTBRRVRQTQONEOD",
+   "SOHYUTWPPMXREBB",
+   "OTDHHTIUEIGZELC",
+   "LNKZCRDMVEHHWAD",
+   "EKMYCOMORLDYATJ",
+   "UKSSORCLYCHGATE",
+   "MJNFGLOCKETKWOA",
+   "SIFREZTJHCUOFPK"
+  ],
+  "placed": {
+   "INSCRIPTION": {
+    "row": 14,
+    "col": 1,
+    "dir": "NE"
+   },
+   "CHURCHYARD": {
+    "row": 10,
+    "col": 4,
+    "dir": "N"
+   },
+   "HEADSTONE": {
+    "row": 0,
+    "col": 4,
+    "dir": "SE"
+   },
+   "MAUSOLEUM": {
+    "row": 5,
+    "col": 0,
+    "dir": "S"
+   },
+   "LYCHGATE": {
+    "row": 12,
+    "col": 7,
+    "dir": "E"
+   },
+   "MEMORIAL": {
+    "row": 10,
+    "col": 7,
+    "dir": "NE"
+   },
+   "MOURNER": {
+    "row": 1,
+    "col": 3,
+    "dir": "S"
+   },
+   "WREATH": {
+    "row": 8,
+    "col": 6,
+    "dir": "N"
+   },
+   "SEXTON": {
+    "row": 6,
+    "col": 14,
+    "dir": "NW"
+   },
+   "VERGER": {
+    "row": 6,
+    "col": 13,
+    "dir": "SW"
+   },
+   "BURIAL": {
+    "row": 1,
+    "col": 12,
+    "dir": "SW"
+   },
+   "LOCKET": {
+    "row": 13,
+    "col": 5,
+    "dir": "E"
+   },
+   "CROSS": {
+    "row": 12,
+    "col": 6,
+    "dir": "W"
+   },
+   "RAVEN": {
+    "row": 4,
+    "col": 10,
+    "dir": "NW"
+   },
+   "ANGEL": {
+    "row": 0,
+    "col": 10,
+    "dir": "SE"
+   },
+   "MIST": {
+    "row": 1,
+    "col": 3,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 43,
+  "clue": "ICEPICK",
+  "words": [
+   "ARCHED",
+   "BRICKWORK",
+   "CHILL",
+   "DRIPPING",
+   "FREEZING",
+   "FROST",
+   "FROZEN",
+   "GLACIER",
+   "LARDER",
+   "PASSAGE",
+   "SAWDUST",
+   "SHIVER",
+   "SNOWDRIFT",
+   "UNDERGROUND",
+   "WINTER"
+  ],
+  "grid": [
+   "NYBJLLLIHCJEZYK",
+   "BDNXKHRXORWJCJY",
+   "DIKLNFTPASSAGES",
+   "JNTFGNIPPIRDNSH",
+   "RYURIBSAPKPRIUI",
+   "ECKODRRNCPPZZCV",
+   "IIDSRREIOGETEBE",
+   "CVATEGPDCWBGEIR",
+   "ACKTEERFRKDYRVH",
+   "LQNMCOREAAWRFHN",
+   "GIDIWOXRDILOIQU",
+   "WQRFZXCQLNBXRFH",
+   "HVTEQHGZODULKKT",
+   "KFNIEJSAWDUSTQE",
+   "DHODNPDWTLBKADV"
+  ],
+  "placed": {
+   "UNDERGROUND": {
+    "row": 12,
+    "col": 10,
+    "dir": "NW"
+   },
+   "SNOWDRIFT": {
+    "row": 4,
+    "col": 6,
+    "dir": "SE"
+   },
+   "BRICKWORK": {
+    "row": 4,
+    "col": 5,
+    "dir": "SE"
+   },
+   "DRIPPING": {
+    "row": 3,
+    "col": 11,
+    "dir": "W"
+   },
+   "FREEZING": {
+    "row": 9,
+    "col": 12,
+    "dir": "N"
+   },
+   "SAWDUST": {
+    "row": 13,
+    "col": 6,
+    "dir": "E"
+   },
+   "GLACIER": {
+    "row": 10,
+    "col": 0,
+    "dir": "N"
+   },
+   "PASSAGE": {
+    "row": 2,
+    "col": 7,
+    "dir": "E"
+   },
+   "ICEPICK": {
+    "row": 10,
+    "col": 3,
+    "dir": "NE"
+   },
+   "FROZEN": {
+    "row": 8,
+    "col": 7,
+    "dir": "SW"
+   },
+   "WINTER": {
+    "row": 11,
+    "col": 0,
+    "dir": "NE"
+   },
+   "LARDER": {
+    "row": 10,
+    "col": 10,
+    "dir": "NW"
+   },
+   "SHIVER": {
+    "row": 2,
+    "col": 14,
+    "dir": "S"
+   },
+   "ARCHED": {
+    "row": 9,
+    "col": 8,
+    "dir": "SW"
+   },
+   "CHILL": {
+    "row": 0,
+    "col": 9,
+    "dir": "W"
+   },
+   "FROST": {
+    "row": 3,
+    "col": 3,
+    "dir": "S"
+   }
+  }
+ },
+ {
+  "case": 44,
+  "clue": "EARRING",
+  "words": [
+   "BALLROOM",
+   "CHAPERONE",
+   "DANCEFLOOR",
+   "FOXTROT",
+   "GLITTER",
+   "MASQUERADE",
+   "ORCHESTRA",
+   "PARTNER",
+   "POLKA",
+   "QUICKSTEP",
+   "SAXOPHONE",
+   "SEQUINS",
+   "TANGO",
+   "TWIRL",
+   "WALTZ"
+  ],
+  "grid": [
+   "UZONOGRENTRAPZP",
+   "TCNYESMLJOWXDQG",
+   "OCFDLTANGOANBRD",
+   "RMPUGROAKLOPEOY",
+   "TCQUICKSTEPTGOR",
+   "XONZLENSVKTVDJC",
+   "ORSECHDUNIUAMSM",
+   "FCVAQHRALINFWIO",
+   "EHPRXFAGRCUANLO",
+   "XEIRKOXPEELQRYR",
+   "FSKIZRPFETUIETL",
+   "ATUNFELHZRWQJSL",
+   "MRFGEOTGOTOVSZA",
+   "SACGOHQUNNDNOAB",
+   "KUIRDUKIHOEAEFM"
+  ],
+  "placed": {
+   "MASQUERADE": {
+    "row": 14,
+    "col": 14,
+    "dir": "NW"
+   },
+   "DANCEFLOOR": {
+    "row": 5,
+    "col": 12,
+    "dir": "SW"
+   },
+   "QUICKSTEP": {
+    "row": 4,
+    "col": 2,
+    "dir": "E"
+   },
+   "ORCHESTRA": {
+    "row": 5,
+    "col": 1,
+    "dir": "S"
+   },
+   "SAXOPHONE": {
+    "row": 6,
+    "col": 2,
+    "dir": "SE"
+   },
+   "CHAPERONE": {
+    "row": 6,
+    "col": 4,
+    "dir": "SE"
+   },
+   "BALLROOM": {
+    "row": 13,
+    "col": 14,
+    "dir": "N"
+   },
+   "FOXTROT": {
+    "row": 7,
+    "col": 0,
+    "dir": "N"
+   },
+   "PARTNER": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   },
+   "SEQUINS": {
+    "row": 11,
+    "col": 13,
+    "dir": "NW"
+   },
+   "GLITTER": {
+    "row": 8,
+    "col": 7,
+    "dir": "NE"
+   },
+   "EARRING": {
+    "row": 6,
+    "col": 3,
+    "dir": "S"
+   },
+   "WALTZ": {
+    "row": 7,
+    "col": 12,
+    "dir": "SW"
+   },
+   "TANGO": {
+    "row": 2,
+    "col": 5,
+    "dir": "E"
+   },
+   "POLKA": {
+    "row": 3,
+    "col": 11,
+    "dir": "W"
+   },
+   "TWIRL": {
+    "row": 12,
+    "col": 9,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 45,
+  "clue": "DOMINO",
+  "words": [
+   "BARMAID",
+   "BITTER",
+   "CIDER",
+   "COASTER",
+   "CRIBBAGE",
+   "DARTBOARD",
+   "DARTS",
+   "INGLENOOK",
+   "JUKEBOX",
+   "LANDLORD",
+   "PINTS",
+   "SKITTLES",
+   "SNOOKER",
+   "TANKARD",
+   "TAPROOM"
+  ],
+  "grid": [
+   "HKCVCVWOSTNIPPY",
+   "VVOMBHFWFOZEDNZ",
+   "NCSOALCOASTERND",
+   "JGANNWPUYSICAII",
+   "IMIZOEYNVZSROUA",
+   "TLGQROLSMLUIBCM",
+   "VBMDNVKGYYCBTVR",
+   "OZNIRIXENZIBRMA",
+   "KIMPTOTCRIDAADB",
+   "SOKTBRLATNEGDPZ",
+   "DSLEXYEDPWREGEG",
+   "MEKLHHRTNREGBAR",
+   "SUDARTSXTAOIITK",
+   "JYOBILOVSILOWFX",
+   "DRAKNATISGBNMUM"
+  ],
+  "placed": {
+   "INGLENOOK": {
+    "row": 8,
+    "col": 9,
+    "dir": "NW"
+   },
+   "DARTBOARD": {
+    "row": 9,
+    "col": 12,
+    "dir": "N"
+   },
+   "SKITTLES": {
+    "row": 5,
+    "col": 7,
+    "dir": "SW"
+   },
+   "CRIBBAGE": {
+    "row": 3,
+    "col": 11,
+    "dir": "S"
+   },
+   "LANDLORD": {
+    "row": 13,
+    "col": 10,
+    "dir": "NW"
+   },
+   "TANKARD": {
+    "row": 14,
+    "col": 6,
+    "dir": "W"
+   },
+   "COASTER": {
+    "row": 2,
+    "col": 6,
+    "dir": "E"
+   },
+   "BARMAID": {
+    "row": 8,
+    "col": 14,
+    "dir": "N"
+   },
+   "JUKEBOX": {
+    "row": 13,
+    "col": 0,
+    "dir": "NE"
+   },
+   "TAPROOM": {
+    "row": 8,
+    "col": 6,
+    "dir": "SE"
+   },
+   "SNOOKER": {
+    "row": 2,
+    "col": 2,
+    "dir": "SE"
+   },
+   "BITTER": {
+    "row": 14,
+    "col": 10,
+    "dir": "NW"
+   },
+   "DOMINO": {
+    "row": 10,
+    "col": 0,
+    "dir": "NE"
+   },
+   "DARTS": {
+    "row": 12,
+    "col": 2,
+    "dir": "E"
+   },
+   "CIDER": {
+    "row": 6,
+    "col": 10,
+    "dir": "S"
+   },
+   "PINTS": {
+    "row": 0,
+    "col": 12,
+    "dir": "W"
+   }
+  }
+ },
+ {
+  "case": 46,
+  "clue": "TOPHAT",
+  "words": [
+   "ABRACADABRA",
+   "ASSISTANT",
+   "COINS",
+   "CONJURER",
+   "ILLUSION",
+   "MAGICIAN",
+   "MYSTERY",
+   "PRESTO",
+   "RABBIT",
+   "SLEIGHT",
+   "SPELL",
+   "SPOTLIGHT",
+   "TRICK",
+   "VANISH",
+   "WAND"
+  ],
+  "grid": [
+   "DJYNVTOGVSEMDKV",
+   "CBTSZSNAHGYNNAW",
+   "JBJCNFPABSAOJOY",
+   "BSQTTIVOTWIZRTW",
+   "PNYFOAOETSRXASS",
+   "CYIZNPRCULIIUEL",
+   "ORCIOYHLAKISBRE",
+   "NZSEQLLANRSGSPI",
+   "JHYVFIDWTJNWHAG",
+   "UABRACADABRAYTH",
+   "RUKHQOXHSXAPNMT",
+   "EDCFHNAICIGAMKU",
+   "RSIVKQRRCSOBPSY",
+   "QNRNLLEPSRABBIT",
+   "TKTXAZHAHWKZFZN"
+  ],
+  "placed": {
+   "ABRACADABRA": {
+    "row": 9,
+    "col": 1,
+    "dir": "E"
+   },
+   "SPOTLIGHT": {
+    "row": 1,
+    "col": 5,
+    "dir": "SE"
+   },
+   "ASSISTANT": {
+    "row": 8,
+    "col": 13,
+    "dir": "NW"
+   },
+   "ILLUSION": {
+    "row": 8,
+    "col": 5,
+    "dir": "NE"
+   },
+   "CONJURER": {
+    "row": 5,
+    "col": 0,
+    "dir": "S"
+   },
+   "MAGICIAN": {
+    "row": 11,
+    "col": 12,
+    "dir": "W"
+   },
+   "SLEIGHT": {
+    "row": 4,
+    "col": 14,
+    "dir": "S"
+   },
+   "MYSTERY": {
+    "row": 0,
+    "col": 11,
+    "dir": "SW"
+   },
+   "RABBIT": {
+    "row": 13,
+    "col": 9,
+    "dir": "E"
+   },
+   "VANISH": {
+    "row": 3,
+    "col": 6,
+    "dir": "SW"
+   },
+   "PRESTO": {
+    "row": 7,
+    "col": 13,
+    "dir": "N"
+   },
+   "TOPHAT": {
+    "row": 3,
+    "col": 3,
+    "dir": "SE"
+   },
+   "SPELL": {
+    "row": 13,
+    "col": 8,
+    "dir": "W"
+   },
+   "TRICK": {
+    "row": 14,
+    "col": 2,
+    "dir": "N"
+   },
+   "COINS": {
+    "row": 5,
+    "col": 7,
+    "dir": "NW"
+   },
+   "WAND": {
+    "row": 3,
+    "col": 9,
+    "dir": "NE"
+   }
+  }
+ },
+ {
+  "case": 47,
+  "clue": "WARDROBE",
+  "words": [
+   "ACTRESS",
+   "BACKSTAGE",
+   "BUSTLE",
+   "CAPE",
+   "CORSET",
+   "COSTUME",
+   "CROWN",
+   "DIRECTOR",
+   "GREASEPAINT",
+   "MANNEQUIN",
+   "MASK",
+   "PROMPTER",
+   "PROPS",
+   "RUFFLE",
+   "TIARA"
+  ],
+  "grid": [
+   "HWCKSAMCEIAAXXA",
+   "TUGYBWIGOCYROCP",
+   "IQRRTRAIJSJQTLR",
+   "AVHMETOIHETRLZO",
+   "RXFASALTLIEUMUM",
+   "ANWKEBSTCSUGMCP",
+   "KVCEJMSESEIDOET",
+   "DAWPJUEOPTRREGE",
+   "BOKABYTSTASIPHR",
+   "KLDCBPWSPEIADSN",
+   "JYQSKGTNTOWNAFW",
+   "MANNEQUINFROTLO",
+   "HFZEQRUFFLEPXWR",
+   "EBORDRAWDYVTYPC",
+   "DPPQRADNRVXJIYW"
+  ],
+  "placed": {
+   "GREASEPAINT": {
+    "row": 1,
+    "col": 2,
+    "dir": "SE"
+   },
+   "BACKSTAGE": {
+    "row": 8,
+    "col": 0,
+    "dir": "NE"
+   },
+   "MANNEQUIN": {
+    "row": 11,
+    "col": 0,
+    "dir": "E"
+   },
+   "DIRECTOR": {
+    "row": 9,
+    "col": 12,
+    "dir": "NW"
+   },
+   "PROMPTER": {
+    "row": 1,
+    "col": 14,
+    "dir": "S"
+   },
+   "WARDROBE": {
+    "row": 13,
+    "col": 7,
+    "dir": "W"
+   },
+   "COSTUME": {
+    "row": 0,
+    "col": 7,
+    "dir": "SE"
+   },
+   "ACTRESS": {
+    "row": 0,
+    "col": 14,
+    "dir": "SW"
+   },
+   "RUFFLE": {
+    "row": 12,
+    "col": 5,
+    "dir": "E"
+   },
+   "CORSET": {
+    "row": 5,
+    "col": 13,
+    "dir": "SW"
+   },
+   "BUSTLE": {
+    "row": 8,
+    "col": 4,
+    "dir": "NE"
+   },
+   "CROWN": {
+    "row": 13,
+    "col": 14,
+    "dir": "N"
+   },
+   "TIARA": {
+    "row": 1,
+    "col": 0,
+    "dir": "S"
+   },
+   "PROPS": {
+    "row": 12,
+    "col": 11,
+    "dir": "NW"
+   },
+   "MASK": {
+    "row": 0,
+    "col": 6,
+    "dir": "W"
+   },
+   "CAPE": {
+    "row": 9,
+    "col": 3,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 48,
+  "clue": "INVITATION",
+  "words": [
+   "ARBOUR",
+   "CANAPES",
+   "CHAMPAGNE",
+   "CROQUET",
+   "FOUNTAIN",
+   "GAZEBO",
+   "GUESTS",
+   "HEDGE",
+   "HOSTESS",
+   "LAWN",
+   "ORCHARD",
+   "PARASOL",
+   "PEACOCK",
+   "SUMMER",
+   "TERRACE"
+  ],
+  "grid": [
+   "KTXCYOARBOURNNK",
+   "NEPSLIHHAPNRLHF",
+   "NUYBEATABSUKUOX",
+   "MQHGEPWXCDCTISL",
+   "COFXROANQONEQTV",
+   "ZRTOFESNCDORMEF",
+   "HCHNUTMAACIRKSD",
+   "MELESNEMHCTAYSL",
+   "LVBEOPTAUVACSOH",
+   "XPUQWRMATSTEOIO",
+   "YGJJMPOQINITLPH",
+   "MEDRAHCRONVQGEP",
+   "SXXGMIKVAGNPDWZ",
+   "RTNZOBEZAGIGKOZ",
+   "QERPARASOLEZUQK"
+  ],
+  "placed": {
+   "INVITATION": {
+    "row": 13,
+    "col": 10,
+    "dir": "N"
+   },
+   "CHAMPAGNE": {
+    "row": 6,
+    "col": 9,
+    "dir": "SW"
+   },
+   "FOUNTAIN": {
+    "row": 4,
+    "col": 2,
+    "dir": "SE"
+   },
+   "CROQUET": {
+    "row": 6,
+    "col": 1,
+    "dir": "N"
+   },
+   "PARASOL": {
+    "row": 14,
+    "col": 3,
+    "dir": "E"
+   },
+   "CANAPES": {
+    "row": 7,
+    "col": 9,
+    "dir": "NW"
+   },
+   "TERRACE": {
+    "row": 3,
+    "col": 11,
+    "dir": "S"
+   },
+   "HOSTESS": {
+    "row": 1,
+    "col": 13,
+    "dir": "S"
+   },
+   "ORCHARD": {
+    "row": 11,
+    "col": 8,
+    "dir": "W"
+   },
+   "PEACOCK": {
+    "row": 8,
+    "col": 5,
+    "dir": "NE"
+   },
+   "GAZEBO": {
+    "row": 13,
+    "col": 9,
+    "dir": "W"
+   },
+   "GUESTS": {
+    "row": 10,
+    "col": 1,
+    "dir": "NE"
+   },
+   "SUMMER": {
+    "row": 9,
+    "col": 9,
+    "dir": "NW"
+   },
+   "ARBOUR": {
+    "row": 0,
+    "col": 6,
+    "dir": "E"
+   },
+   "HEDGE": {
+    "row": 10,
+    "col": 14,
+    "dir": "SW"
+   },
+   "LAWN": {
+    "row": 1,
+    "col": 4,
+    "dir": "SE"
+   }
+  }
+ },
+ {
+  "case": 49,
+  "clue": "CORKSCREW",
+  "words": [
+   "BARREL",
+   "BOTTLE",
+   "BURGUNDY",
+   "CASK",
+   "CELLAR",
+   "CLARET",
+   "GRAPES",
+   "RACKING",
+   "SHERRY",
+   "SOMMELIER",
+   "SPARKLING",
+   "STOPPER",
+   "TASTING",
+   "VINEYARD",
+   "VINTAGE"
+  ],
+  "grid": [
+   "QGSFCWZLELSCRHF",
+   "WJNYGOWNCNIEEOV",
+   "DJPIRRRFBCJLPJF",
+   "WLJJLRAKUMALPVQ",
+   "VFZOGKEPSFNAOGM",
+   "GNIKCARHECPRTWD",
+   "VYTZXBMASSRBSRE",
+   "KJAJOTEAPBUEAZQ",
+   "SRSTXGBXASNYWTR",
+   "AHTBAPTRBTEUICW",
+   "CLITGYRFGNVLJGY",
+   "EHNQQELBIRPIXZP",
+   "VIGJLRLVOCLARET",
+   "VOZSOMMELIERVGE",
+   "YGPYDNUGRUBRHPS"
+  ],
+  "placed": {
+   "SOMMELIER": {
+    "row": 13,
+    "col": 3,
+    "dir": "E"
+   },
+   "SPARKLING": {
+    "row": 8,
+    "col": 9,
+    "dir": "NW"
+   },
+   "CORKSCREW": {
+    "row": 0,
+    "col": 4,
+    "dir": "SE"
+   },
+   "VINEYARD": {
+    "row": 12,
+    "col": 7,
+    "dir": "NE"
+   },
+   "BURGUNDY": {
+    "row": 14,
+    "col": 10,
+    "dir": "W"
+   },
+   "VINTAGE": {
+    "row": 13,
+    "col": 0,
+    "dir": "NE"
+   },
+   "STOPPER": {
+    "row": 6,
+    "col": 12,
+    "dir": "N"
+   },
+   "RACKING": {
+    "row": 5,
+    "col": 6,
+    "dir": "W"
+   },
+   "TASTING": {
+    "row": 6,
+    "col": 2,
+    "dir": "S"
+   },
+   "BARREL": {
+    "row": 7,
+    "col": 9,
+    "dir": "SW"
+   },
+   "BOTTLE": {
+    "row": 6,
+    "col": 5,
+    "dir": "SW"
+   },
+   "CELLAR": {
+    "row": 0,
+    "col": 11,
+    "dir": "S"
+   },
+   "GRAPES": {
+    "row": 1,
+    "col": 4,
+    "dir": "SE"
+   },
+   "CLARET": {
+    "row": 12,
+    "col": 9,
+    "dir": "E"
+   },
+   "SHERRY": {
+    "row": 6,
+    "col": 8,
+    "dir": "NW"
+   },
+   "CASK": {
+    "row": 10,
+    "col": 0,
+    "dir": "N"
+   }
+  }
+ },
+ {
+  "case": 50,
+  "clue": "EXHIBIT",
+  "words": [
+   "ANCIENT",
+   "ARTEFACT",
+   "CURATOR",
+   "DIORAMA",
+   "DISPLAY",
+   "FOSSIL",
+   "GUIDEBOOK",
+   "HISTORY",
+   "MUSEUM",
+   "PLAQUE",
+   "POTTERY",
+   "ROMAN",
+   "SKELETON",
+   "SPECIMEN",
+   "TREASURE"
+  ],
+  "grid": [
+   "APAKHCDFOSSILST",
+   "WTJDLIRYVEPEBLI",
+   "HISTORYWJGTKGSB",
+   "SNURKPDCGQVUPUI",
+   "BPAERUSAERTAGRH",
+   "GMEGGUIDEBOOKCX",
+   "AWDTNEICNASISQE",
+   "SPRIOXPGTMKXGQW",
+   "PXPQSPBCZREJNGF",
+   "EMKOLPAHOXLEAXH",
+   "CRUATFLTSPESMOV",
+   "IWQEETAAFLTLOPC",
+   "MUCTSREIYUOURFK",
+   "ECRBUUWRJSNWVNQ",
+   "NAPCJFMUYOOAOTQ"
+  ],
+  "placed": {
+   "GUIDEBOOK": {
+    "row": 5,
+    "col": 4,
+    "dir": "E"
+   },
+   "ARTEFACT": {
+    "row": 14,
+    "col": 1,
+    "dir": "NE"
+   },
+   "SKELETON": {
+    "row": 6,
+    "col": 10,
+    "dir": "S"
+   },
+   "TREASURE": {
+    "row": 4,
+    "col": 10,
+    "dir": "W"
+   },
+   "SPECIMEN": {
+    "row": 7,
+    "col": 0,
+    "dir": "S"
+   },
+   "CURATOR": {
+    "row": 14,
+    "col": 3,
+    "dir": "NE"
+   },
+   "DISPLAY": {
+    "row": 6,
+    "col": 2,
+    "dir": "SE"
+   },
+   "POTTERY": {
+    "row": 8,
+    "col": 2,
+    "dir": "SE"
+   },
+   "HISTORY": {
+    "row": 2,
+    "col": 0,
+    "dir": "E"
+   },
+   "ANCIENT": {
+    "row": 6,
+    "col": 9,
+    "dir": "W"
+   },
+   "DIORAMA": {
+    "row": 0,
+    "col": 6,
+    "dir": "SW"
+   },
+   "EXHIBIT": {
+    "row": 6,
+    "col": 14,
+    "dir": "N"
+   },
+   "MUSEUM": {
+    "row": 14,
+    "col": 6,
+    "dir": "NW"
+   },
+   "FOSSIL": {
+    "row": 0,
+    "col": 7,
+    "dir": "E"
+   },
+   "PLAQUE": {
+    "row": 8,
+    "col": 5,
+    "dir": "SW"
+   },
+   "ROMAN": {
+    "row": 12,
+    "col": 12,
+    "dir": "N"
+   }
+  }
+ }
+]
